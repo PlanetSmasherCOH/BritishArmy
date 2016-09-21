@@ -1,0 +1,125 @@
+Archive name="df1550dfa8424463bcf29079befc75fb" blocksize="262144"
+TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
+	FileSettingsStart defverification="sha1_blocks" defcompression="stream_compress"
+		Override wildcard=".*\.(rgd)$" minsize="-1" maxsize="-1" vt="sha1_blocks" ct="buffer_compress"
+	FileSettingsEnd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\first_aid.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\mills_bomb.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\sapper_cut_wire.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\sapper_repair.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\smoke_grenade.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\army\british.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t0.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t1.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t2.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t3.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t4.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\defenses\mg_nest.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\commando.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\marksman.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\officer.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\sapper.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\tommy.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\weapon_crew.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\centaur.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\churchill.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\churchill_avre.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\churchill_crocodile.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\comet.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\cromwell.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\sexton.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\sherman_firefly.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\tanks\valentine.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\vehicles\aec.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\vehicles\m3.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\vehicles\universal_carrier.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\weapons\3inch.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\weapons\6pounder.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\weapons\land_mattress.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\weapons\vickers.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\infantry\commandos.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\infantry\marksman.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\infantry\officer.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\infantry\sappers.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\infantry\tommies.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\centaur.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\churchill.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\churchill_avre.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\churchill_crocodile.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\comet.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\cromwell.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\sexton.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\sherman_firefly.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\tanks\valentine.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\vehicles\aec.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\vehicles\m3.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\vehicles\universal_carrier.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\weapons\3inch.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\weapons\6pounder.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\weapons\land_mattress.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\sbps\weapons\vickers.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\slot_item\infantry\mills_bomb.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\slot_item\infantry\sapper_boys.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\slot_item\infantry\sapper_flamethrower.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\slot_item\infantry\sapper_piat.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\slot_item\infantry\smoke_grenade.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\slot_item\infantry\tommy_bren.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\slot_item\infantry\tommy_vickers_k.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\bp1.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\bp2.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\bp3.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\sapper_boys.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\sapper_flamethrower.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\sapper_minesweeper.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\sapper_piat.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\tommy_bren.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\tommy_vickers_k.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\vickers_k_emplacement.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\commando_sten_silenced.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\marksman_enfield.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\mills_bomb.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\sapper_boys.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\sapper_enfield.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\sapper_flamethrower.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\sapper_piat.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\smoke_grenade.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\tommy_bren.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\tommy_enfield.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\tommy_vickers_k.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\weapon_crew_enfield.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\tanks\churchill_75mm.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\tanks\cromwell_75mm.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\tanks\sherman_firefly_17pounder.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\tanks\valentine_75mm.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\vehicles\aec_75mm.rgd
+TOCEnd
+TOCStart name="locale" alias="locale" path="" relativeroot="locale"
+	FileSettingsStart defverification="crc_blocks" defcompression="stream_compress"
+	FileSettingsEnd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\locale\english\english.ucs
+TOCEnd
+TOCStart name="info" alias="info" path="" relativeroot="info"
+	FileSettingsStart defverification="crc_blocks" defcompression="stream_compress"
+		Override wildcard=".*\.(lua)$" minsize="-1" maxsize="-1" vt="crc_blocks" ct="buffer_compress"
+	FileSettingsEnd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\info\df1550dfa8424463bcf29079befc75fb.info
+TOCEnd
+TOCStart name="data" alias="data" path="" relativeroot="data"
+	FileSettingsStart defverification="sha1_blocks" defcompression="stream_compress"
+		Override wildcard=".*\.(rgt|ttf)$" minsize="-1" maxsize="-1" vt="none" ct="store"
+		Override wildcard=".*\.(abp)$" minsize="-1" maxsize="-1" vt="none" ct="buffer_compress"
+		Override wildcard=".*\.(dds|mua|muax|rpb|sua|tga)$" minsize="-1" maxsize="-1" vt="none" ct=""
+		Override wildcard=".*\.(gfx)$" minsize="-1" maxsize="-1" vt="sha1_blocks" ct=""
+		Override wildcard=".*\.(ai|events|info|lua|options|scar|scenref|squadai)$" minsize="-1" maxsize="-1" vt="sha1_blocks" ct="buffer_compress"
+		Override wildcard=".*\.(scenariomarker|sgb|ter|sme|exclude|path)$" minsize="-1" maxsize="-1" vt="crc_blocks" ct=""
+		Override wildcard=".*\.(smf)$" minsize="-1" maxsize="-1" vt="none" ct="store"
+		Override wildcard=".*\.(bsc)$" minsize="-1" maxsize="-1" vt="none" ct="buffer_compress"
+	FileSettingsEnd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\british\soldiers\commando\commando.abp
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\british\soldiers\engineer\engineer.abp
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\british\soldiers\officer\officer.abp
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\british\soldiers\sniper\sniper.abp
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\british\soldiers\tommy\tommy.abp
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\common\completemotiontree.abp
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\common\newmotiontree.abp
+TOCEnd

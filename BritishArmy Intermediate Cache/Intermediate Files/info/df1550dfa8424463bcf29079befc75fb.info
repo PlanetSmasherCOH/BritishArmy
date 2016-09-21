@@ -1,0 +1,6 @@
+hidden = false
+name = "British Army"
+description = "Complete redesign of the British faction with linear teching and no gimmicks."
+dependencies = 
+{
+}

@@ -1,0 +1,8 @@
+model =
+{
+	"..\\..\\..\\common\\NewMotionTree.abp",
+	"..\\..\\weapons\\rifle_lee_enfield\\rifle_lee_enfield",
+	
+	-- Main Mesh
+	"sniper",
+}

@@ -1,0 +1,9 @@
+model =
+{
+	"..\\..\\..\\common\\NewMotionTree.abp",
+	"..\\..\\..\\common\\engineer.abp",
+	"..\\..\\weapons\\rifle_lee_enfield\\rifle_lee_enfield",
+	
+	-- Main Mesh
+	"engineer",
+}

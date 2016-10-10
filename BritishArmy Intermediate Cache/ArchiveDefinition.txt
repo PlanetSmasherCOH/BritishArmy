@@ -122,4 +122,5 @@ TOCStart name="data" alias="data" path="" relativeroot="data"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\british\soldiers\tommy\tommy.abp
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\common\completemotiontree.abp
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\common\newmotiontree.abp
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\ui\Bin\df1550dfa8424463bcf29079befc75fb.gfx
 TOCEnd

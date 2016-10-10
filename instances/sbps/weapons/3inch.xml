@@ -11,13 +11,13 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="40" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="hotkey_name" value="E" />
-						<icon name="icon_name" value="Icons_units_unit_aef_mortar_crew" />
+						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_3inch_squad_icon" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
 						<locstring name="screen_name" value="39" mod="df1550dfa8424463bcf29079befc75fb" />
-						<string name="selection_group" value="mortar_60mm" />
+						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
 							<string name="code_1" value="wi" />
 							<string name="code_2" value="" />

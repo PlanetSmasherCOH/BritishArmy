@@ -7,7 +7,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\first_aid.xml</FileName>
-			<FileHash>7f6453f7f4574324be625ae3cb4955a9</FileHash>
+			<FileHash>0813b89397f4cd87c5ef02a60b049eb2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\mills_bomb.xml</FileName>
@@ -51,7 +51,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\defenses\mg_nest.xml</FileName>
-			<FileHash>c6d695f6d34b4ad16c2e4bb7bb7fd31f</FileHash>
+			<FileHash>c16f1e6b220f38c51e6147dbb615a9f9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\soldiers\commando.xml</FileName>
@@ -211,7 +211,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\3inch.xml</FileName>
-			<FileHash>a8b0fc4eceb61bfaf65907531fe63856</FileHash>
+			<FileHash>c5361e43f7496f8a9a86554e2109cf99</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\6pounder.xml</FileName>
@@ -363,7 +363,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\locale\english\english.ucs</FileName>
-			<FileHash>bdcd9d0f31938ab3dbd6d20e500bb2ce</FileHash>
+			<FileHash>f220f6883624bee61fff4a047205c566</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\info\df1550dfa8424463bcf29079befc75fb.info</FileName>
@@ -396,6 +396,10 @@
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\art\armies\common\newmotiontree.abp</FileName>
 			<FileHash>1c6082c6287ec0328a415385c427991f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\3inch_squad_icon.png</FileName>
+			<FileHash>53a51ef8bf0033d6d71052edd827ea6b</FileHash>
 		</BurnInfo>
 	</BurnInfo>
 	<BurnInfoExtendedInfo />

@@ -115,7 +115,8 @@
 			<bool name="can_abort_winddown" value="False" />
 			<enum name="reaction_type" value="sniped" />
 			<bool name="ignore_relations" value="False" />
-			<template_reference name="wants_prone_firing_option" value="options\none">
+			<template_reference name="wants_prone_firing_option" value="options\weapon\wants_prone_firing">
+				<float name="time_to_stay_prone_after_combat" value="3" />
 			</template_reference>
 			<enum name="attack_ground_type" value="not_allowed" />
 			<bool name="non_moving_setup_requires_facing" value="False" />
@@ -322,18 +323,18 @@
 			</list>
 		</group>
 		<group name="fire">
-			<float name="wind_down" value="1.625" />
+			<float name="wind_down" value="1.3" />
 			<float name="wind_up" value="0" />
 			<list name="on_fire_actions">
 			</list>
 		</group>
 		<float name="flinch_radius" value="0" />
-		<string name="fx_action_target_name" value="mosin_nagant_sniper_target" />
+		<string name="fx_action_target_name" value="lee_enfield_target" />
 		<bool name="fx_always_visible" value="False" />
 		<float name="fx_building_hit_delay" value="0" />
 		<float name="fx_delay_in_building" value="0" />
-		<string name="fx_munition_name" value="sniper" />
-		<string name="fx_tracer_name" value="fx_mosin_nagant_sniper_tracer" />
+		<string name="fx_munition_name" value="bullet" />
+		<string name="fx_tracer_name" value="fx_lee_enfield_tracer" />
 		<float name="fx_tracer_speed" value="120" />
 		<bool name="fx_use_building_panel_normal" value="True" />
 		<locstring name="help_text" value="0" />

@@ -43,7 +43,7 @@
 		<bool name="validate_actions" value="True" />
 		<list name="actions">
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\tommy_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073742708" />
 			</template_reference>

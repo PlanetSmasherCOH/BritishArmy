@@ -19,7 +19,7 @@
 						<locstring name="screen_name" value="11083653" />
 						<string name="selection_group" value="mattress" />
 						<group name="speaker_generic">
-							<string name="code_1" value="wi" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
@@ -29,8 +29,8 @@
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="lm" />
-							<string name="code_2" value="wi" />
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
@@ -555,6 +555,11 @@
 			<float name="capture_distance" value="4" />
 			<float name="capture_rate_multiplier" value="1" />
 			<float name="revert_rate_multiplier" value="1" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
+			<float name="number_of_slots" value="-1" />
+			<list name="upgrades">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073741830" />

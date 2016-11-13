@@ -11,7 +11,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="bp3" />
+			<string name="code_1" value="ihs" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
@@ -28,7 +28,7 @@
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="unit_upgrade_panel" />
-		<int name="ui_position" value="1" />
+		<int name="ui_position" value="2" />
 		<group name="ui_info">
 			<locstring name="extra_text" value="11038896" />
 			<locstring name="help_text" value="11007810" />

@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\british\structures\base_02\base_02" />
+			<file name="animator" value="armies\aef\structures\aef_supplytent\aef_supplytent" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -149,7 +149,7 @@
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="False" />
 			<instance_reference name="on_construction_squad" value="" />
-			<float name="orientation" value="0" />
+			<float name="orientation" value="270" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
 			<bool name="query_abilities_for_range_ui" value="True" />
@@ -184,6 +184,14 @@
 						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073741839" />
+				</template_reference>
+				<template_reference name="action" value="action\animator_set_state">
+					<bool name="apply_to_leader_only" value="False" />
+					<string name="do_action_state_name" value="up" />
+					<bool name="retrigger" value="False" />
+					<string name="state_machine_name" value="net" />
+					<string name="undo_action_state_name" value="" />
+					<uniqueid name="id" value="1073742932" />
 				</template_reference>
 			</list>
 			<list name="materials">
@@ -293,7 +301,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="gb4" />
+				<string name="code_1" value="xcc" />
 				<string name="code_2" value="bld" />
 				<string name="code_3" value="" />
 			</group>
@@ -364,7 +372,7 @@
 				</template_reference>
 				<template_reference name="action" value="action\animator_set_state">
 					<bool name="apply_to_leader_only" value="False" />
-					<string name="do_action_state_name" value="hammer" />
+					<string name="do_action_state_name" value="anvil" />
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="upgrade_state" />
 					<string name="undo_action_state_name" value="" />

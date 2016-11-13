@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\aef\structures\aef_supplytent\aef_supplytent" />
+			<file name="animator" value="armies\british\structures\base_fwd_hq\base_fwd_hq" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -185,14 +185,6 @@
 					</list>
 					<uniqueid name="id" value="1073741829" />
 				</template_reference>
-				<template_reference name="action" value="action\animator_set_state">
-					<bool name="apply_to_leader_only" value="False" />
-					<string name="do_action_state_name" value="up" />
-					<bool name="retrigger" value="False" />
-					<string name="state_machine_name" value="net" />
-					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073741845" />
-				</template_reference>
 			</list>
 			<list name="materials">
 			</list>
@@ -301,7 +293,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="gb2" />
+				<string name="code_1" value="xpc" />
 				<string name="code_2" value="bld" />
 				<string name="code_3" value="" />
 			</group>

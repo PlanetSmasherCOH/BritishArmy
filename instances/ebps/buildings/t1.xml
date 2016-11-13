@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\british\structures\base_fwd_hq\base_fwd_hq" />
+			<file name="animator" value="environment/objects/xp1_test_buildings/base_building_03/base_building_03" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -149,7 +149,7 @@
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="False" />
 			<instance_reference name="on_construction_squad" value="" />
-			<float name="orientation" value="270" />
+			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
 			<bool name="query_abilities_for_range_ui" value="True" />
@@ -293,7 +293,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="gb1" />
+				<string name="code_1" value="xpc" />
 				<string name="code_2" value="bld" />
 				<string name="code_3" value="" />
 			</group>

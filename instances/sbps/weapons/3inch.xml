@@ -11,7 +11,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="40" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="hotkey_name" value="E" />
-						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_3inch_squad_icon" />
+						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
@@ -19,7 +19,7 @@
 						<locstring name="screen_name" value="39" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
-							<string name="code_1" value="wi" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
@@ -29,14 +29,14 @@
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="mr" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
 							<string name="code_1" value="mtr" />
 							<string name="code_2" value="wpc" />
-							<string name="code_3" value="" />
+							<string name="code_3" value="mep" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
 						<int name="ui_priority" value="38" />
@@ -794,6 +794,11 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext">
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
+			<float name="number_of_slots" value="-1" />
+			<list name="upgrades">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073741832" />

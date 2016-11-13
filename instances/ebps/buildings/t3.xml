@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\british\structures\base_01\base_01" />
+			<file name="animator" value="armies\aef\structures\aef_storagebunker\aef_storagebunker" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -293,7 +293,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="gb3" />
+				<string name="code_1" value="xcc" />
 				<string name="code_2" value="bld" />
 				<string name="code_3" value="" />
 			</group>

@@ -42,7 +42,7 @@
 					<string name="state_machine_name" value="RoleVariation" />
 					<string name="undo_action_state_name" value="" />
 					<bool name="retrigger" value="False" />
-					<uniqueid name="id" value="1073741847" />
+					<uniqueid name="id" value="1073742904" />
 				</template_reference>
 			</list>
 		</template_reference>

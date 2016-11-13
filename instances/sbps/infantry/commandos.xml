@@ -458,8 +458,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\infantry\first_aid" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="ability" value="abilities\infantry\mills_bomb" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="ability" value="abilities\infantry\smoke_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\infantry\no77_wp_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -731,6 +730,12 @@
 						<enum name="shared_veterancy_type" value="no_sharing" />
 					</group>
 				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
+			<float name="number_of_slots" value="-1" />
+			<list name="upgrades">
+				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 	</list>

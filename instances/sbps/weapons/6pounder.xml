@@ -19,7 +19,7 @@
 						<locstring name="screen_name" value="11077879" />
 						<string name="selection_group" value="atgun" />
 						<group name="speaker_generic">
-							<string name="code_1" value="wd" />
+							<string name="code_1" value="" />
 							<string name="code_2" value="" />
 							<string name="code_3" value="" />
 						</group>
@@ -29,9 +29,9 @@
 							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_2">
-							<string name="code_1" value="06" />
-							<string name="code_2" value="an" />
-							<string name="code_3" value="wp" />
+							<string name="code_1" value="" />
+							<string name="code_2" value="" />
+							<string name="code_3" value="" />
 						</group>
 						<group name="speech_code_3">
 							<string name="code_1" value="b06" />
@@ -677,6 +677,11 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext">
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
+			<float name="number_of_slots" value="-1" />
+			<list name="upgrades">
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073741828" />

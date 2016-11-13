@@ -410,7 +410,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\shock_troop_smoke_grenades" />
+				<instance_reference name="ability" value="abilities\infantry\no77_wp_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

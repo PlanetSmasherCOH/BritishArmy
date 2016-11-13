@@ -1,10 +1,8 @@
 model =
 {
-	"..\\..\\..\\common\\NewMotionTree.abp",
-	"..\\..\\..\\common\\engineer.abp",
-	"..\\..\\weapons\\smg_mk2_sten\\smg_mk2_sten",
-	"..\\..\\..\\aef\\weapons\\grenade_mk2_pineapple\\grenade_mk2_pineapple",
-
 	-- Main Mesh
 	"commando",
+	"..\\..\\..\\common\\NewMotionTree.abp",
+	"..\\..\\weapons\\smg_mk2_sten\\smg_mk2_sten",
+	"..\\..\\..\\soviet\\weapons\\grenade_rg42\\grenade_rg42",
 }

@@ -735,7 +735,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_double" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 	</list>

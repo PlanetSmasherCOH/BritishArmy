@@ -52,7 +52,7 @@
 		<list name="on_drop_actions">
 			<template_reference name="action" value="action\upgrade_remove">
 				<bool name="apply_to_entities_in_squad" value="False" />
-				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_double" mod="df1550dfa8424463bcf29079befc75fb" />
 				<uniqueid name="id" value="1073742771" />
 			</template_reference>
 		</list>

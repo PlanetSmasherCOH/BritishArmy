@@ -1,9 +1,7 @@
 model =
 {
-	"..\\..\\..\\common\\NewMotionTree.abp",
-	--"..\\..\\..\\aef\\aefcommongear.abp",
-	"..\\..\\weapons\\smg_mk2_sten\\smg_mk2_sten",
-	"..\\..\\weapons\\rifle_lee_enfield\\rifle_lee_enfield",
+	"..\\..\\..\\common\\CompleteMotionTree.abp",
+	"..\\..\\..\\soviet\\weapons\\rifle_mosin_nagant_sniper\\rifle_mosin_nagant_sniper"
 	-- Main Mesh
 	"sniper",
 }

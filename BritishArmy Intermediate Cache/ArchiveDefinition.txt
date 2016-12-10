@@ -9,6 +9,9 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\no77_wp_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\sapper_cut_wire.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\sapper_repair.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\weapons\3inch_barrage_he.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\weapons\3inch_barrage_smoke.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\weapons\3inch_barrage_wp.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\weapons\vickers_indirect.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\army\british.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t0.rgd
@@ -17,6 +20,9 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t3.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\buildings\t4.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\defenses\mg_nest.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\3inch_he.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\3inch_smoke.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\3inch_wp.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no36mk1_frag_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no68_at_rifle_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no77_wp_grenade.rgd
@@ -78,7 +84,9 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\bp2.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\bp3.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\t0_medics.rgd
-	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\commando_piat.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\commando_piat_double.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\commando_piat_single.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\sapper_assault.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\sapper_flamethrower.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\sapper_minesweeper.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\infantry\tommy_boys.rgd
@@ -98,6 +106,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\no77_wp_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\piat.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\sapper_enfield.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\sapper_sten.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\tommy_enfield.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\vickers_k.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\infantry\weapon_crew_enfield.rgd
@@ -107,6 +116,11 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\tanks\valentine_75mm.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\vehicles\aec_75mm.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\vehicles\pintle_vickers_k.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\weapons\3inch_barrage_he.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\weapons\3inch_barrage_smoke.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\weapons\3inch_barrage_wp.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\weapons\3inch_counter_barrage_he.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\weapons\3inch_default_he.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\weapons\vickers.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\weapon\weapons\vickers_indirect.rgd
 TOCEnd

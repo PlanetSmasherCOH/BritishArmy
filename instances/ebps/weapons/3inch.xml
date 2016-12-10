@@ -384,9 +384,9 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m1_81mm_mortar_team_mortar_barrage_mp" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\m1_81mm_mortar_team_smoke_barrage_mp" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\m1_81mm_mortar_white_phosphorous_barrage_ability_mp" />
+				<instance_reference name="ability" value="abilities\weapons\3inch_barrage_he" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\weapons\3inch_barrage_smoke" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\weapons\3inch_barrage_wp" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">
@@ -408,7 +408,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\mortar\m1_81mm_mortar_mp" />
+							<instance_reference name="weapon" value="weapon\weapons\3inch_default_he" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -429,7 +429,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\mortar\m1_81mm_mortar_barrage_mp" />
+							<instance_reference name="weapon" value="weapon\weapons\3inch_barrage_he" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -450,7 +450,7 @@
 								<float name="z" value="1.41" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\mortar\m1_81mm_mortar_team_smoke_mp" />
+							<instance_reference name="weapon" value="weapon\weapons\3inch_barrage_smoke" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -492,7 +492,7 @@
 								<float name="z" value="1.41" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\mortar\m1_81mm_mortar_white_phosphorous_barrage_mp" />
+							<instance_reference name="weapon" value="weapon\weapons\3inch_barrage_wp" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

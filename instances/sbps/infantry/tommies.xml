@@ -168,7 +168,7 @@
 			<float name="squad_female_chance" value="0" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
-			<float name="number_of_slots" value="1" />
+			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\infantry\tommy_bren" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\tommy_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />

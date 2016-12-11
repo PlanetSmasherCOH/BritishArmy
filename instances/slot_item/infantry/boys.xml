@@ -3,7 +3,7 @@
 		<bool name="always_pick_up" value="False" />
 		<bool name="can_stack" value="False" />
 		<float name="can_stack_max" value="1" />
-		<instance_reference name="drop_item_entity" value="ebps\gameplay\props\brit_boys_at_rifle_mp" />
+		<instance_reference name="drop_item_entity" value="ebps\props\boys" mod="df1550dfa8424463bcf29079befc75fb" />
 		<float name="drop_rate" value="0.33" />
 		<float name="hardpoint" value="1" />
 		<bool name="has_speech_code" value="True" />

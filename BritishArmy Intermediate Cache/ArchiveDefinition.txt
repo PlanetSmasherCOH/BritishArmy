@@ -3,6 +3,8 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	FileSettingsStart defverification="sha1_blocks" defcompression="stream_compress"
 		Override wildcard=".*\.(rgd)$" minsize="-1" maxsize="-1" vt="sha1_blocks" ct="buffer_compress"
 	FileSettingsEnd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\commando_camouflage.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\commando_piat_ambush.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\first_aid.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\no36mk1_frag_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\infantry\no68_at_rifle_grenade.rgd
@@ -29,6 +31,11 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no74_at_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no77_wp_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\vickers_indirect.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\boys.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\bren.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\m2_flamethrower.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\piat.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\vickers_k.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\commando.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\marksman.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\soldiers\officer.rgd
@@ -158,6 +165,6 @@ TOCStart name="data" alias="data" path="" relativeroot="data"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\british\vehicles\churchill\churchill.abp
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\common\completemotiontree.abp
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\art\armies\common\newmotiontree.abp
-	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\ui\Assets\Textures\df1550dfa8424463bcf29079befc75fb_I1.dds
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\ui\Assets\Textures\df1550dfa8424463bcf29079befc75fb_I3.dds
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\data\ui\Bin\df1550dfa8424463bcf29079befc75fb.gfx
 TOCEnd

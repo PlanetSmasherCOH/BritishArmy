@@ -2,6 +2,8 @@
 <display:MovieClip xmlns:fx='http://ns.adobe.com/mxml/2009' xmlns:display='flash.display.*'>
 	<fx:Script>
 		<![CDATA[
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_commando_camouflage_inactive_icon.png')]
+		public static var british_commando_camouflage_inactive_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_mortar_squad_icon.png')]
 		public static var british_mortar_squad_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_no74_grenade_icon.png')]

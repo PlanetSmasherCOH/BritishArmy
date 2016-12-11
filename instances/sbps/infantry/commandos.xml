@@ -459,6 +459,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\infantry\first_aid" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\no77_wp_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\infantry\commando_piat_ambush" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -736,6 +737,7 @@
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_double" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_single" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 	</list>

@@ -66,7 +66,7 @@
 				<instance_reference name="upgrade_name" value="upgrade\bp1" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_slot_item_size">
-				<enum name="reason" value="usage" />
+				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="11074943" />
 				<float name="required_free_slot_size" value="1" />
 			</template_reference>

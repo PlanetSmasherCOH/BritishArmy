@@ -433,6 +433,7 @@
 				<instance_reference name="ability" value="abilities\infantry\first_aid" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\no36mk1_frag_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\no68_at_rifle_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\infantry\no74_at_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

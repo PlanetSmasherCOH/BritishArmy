@@ -1,9 +1,17 @@
 model =
 {
 	"..\\..\\..\\common\\NewMotionTree.abp",
-	--"..\\..\\..\\aef\\aefcommongear.abp",
-	"..\\..\\weapons\\smg_mk2_sten\\smg_mk2_sten",
-	"..\\..\\weapons\\rifle_lee_enfield\\rifle_lee_enfield",
+	--"..\\..\\..\\common\\engineer.abp",
+	
+	-- Common AEF Gear
+    --"..\\..\\..\\aef\\aefcommongear.abp",
+	--"..\\..\\..\\aef\\weapons\\m3_grease_gun\\m3_grease_gun",
+	"..\\..\\weapons\\boys_at_rifle\\boys_at_rifle",
+	--"..\\..\\weapons\\rifle_lee_enfield\\rifle_lee_enfield",
+	
+	"..\\..\\..\\soviet\\weapons\\rifle_mosin_nagant_sniper\\rifle_mosin_nagant_sniper.abp",
+	"..\\..\\..\\soviet\\sovietcommongear.abp",
+	
 	-- Main Mesh
 	"sniper",
 }

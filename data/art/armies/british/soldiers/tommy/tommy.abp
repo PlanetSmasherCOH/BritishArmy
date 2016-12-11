@@ -7,5 +7,7 @@ model =
 	"..\\..\\weapons\\smg_mk2_sten\\smg_mk2_sten",
 	"..\\..\\weapons\\rifle_lee_enfield\\rifle_lee_enfield",
 	"..\\..\\..\\aef\\weapons\\grenade_mk2_pineapple\\grenade_mk2_pineapple",
+	"..\\..\\..\\soviet\\weapons\\grenade_rpg43\\grenade_rpg43",
+	"..\\..\\..\\german\\weapons\\rifle_grenade_launcher\\rifle_grenade_launcher",
 	--"..\\..\\..\\aef\\weapons\\grenade_m9a1_rifle\\grenade_m9a1_rifle",
 }

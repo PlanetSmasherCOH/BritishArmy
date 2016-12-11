@@ -57,10 +57,11 @@
       <def id="mx.core:mx_internal" />
       <dep id="AS3" />
     </script>
-    <script name="E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\ModIcons_df1550dfa8424463bcf29079befc75fb.mxml" mod="1476354715465" size="453" optimizedsize="432">
+    <script name="E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\ModIcons_df1550dfa8424463bcf29079befc75fb.mxml" mod="1481467764533" size="567" optimizedsize="543">
       <def id="ModIcons_df1550dfa8424463bcf29079befc75fb" />
       <pre id="flash.display:MovieClip" />
       <dep id="AS3" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon" />
     </script>
     <script name="C:\Program Files (x86)\Apache Flex\frameworks\libs\core.swc(mx.core:ILayoutDirectionElement)" mod="1451275290000" size="752" optimizedsize="239">
@@ -86,6 +87,11 @@
       <dep id="flash.display:BitmapData" />
       <dep id="mx.utils:NameUtil" />
       <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon.as" mod="1481467555633" size="351" optimizedsize="318">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
     </script>
   </scripts>
   <external-defs>

@@ -4,6 +4,8 @@
 		<![CDATA[
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_mortar_squad_icon.png')]
 		public static var british_mortar_squad_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_no74_grenade_icon.png')]
+		public static var british_no74_grenade_icon:Class;
 		]]>
 	</fx:Script>
 </display:MovieClip>

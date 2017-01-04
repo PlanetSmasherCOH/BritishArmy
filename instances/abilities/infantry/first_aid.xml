@@ -8,7 +8,7 @@
 			<list name="start_self_actions">
 				<template_reference name="action" value="action\timed_action">
 					<float name="duration" value="30" />
-					<bool name="fire_and_forget" value="True" />
+					<bool name="fire_and_forget" value="False" />
 					<list name="subactions">
 						<template_reference name="action" value="action\change_target_action">
 							<list name="actions">
@@ -18,7 +18,7 @@
 									<bool name="instant_requirement_check" value="False" />
 									<bool name="kill_action_on_failed_requirements" value="False" />
 									<bool name="no_retrigger" value="False" />
-									<bool name="validate_all_sub_actions" value="False" />
+									<bool name="validate_all_sub_actions" value="True" />
 									<list name="requirement_table">
 										<template_reference name="required" value="requirements\required_all_in_list">
 											<enum name="reason" value="usage" />
@@ -67,6 +67,20 @@
 													<bool name="injured" value="True" />
 													<bool name="leader" value="False" />
 													<bool name="not_moving" value="False" />
+													<bool name="not_retreating" value="False" />
+													<bool name="pinned" value="False" />
+													<bool name="suppressed" value="False" />
+													<bool name="camouflaged" value="False" />
+												</template_reference>
+												<template_reference name="requirement" value="requirements\required_in_state">
+													<enum name="reason" value="usage" />
+													<locstring name="ui_name" value="0" />
+													<bool name="garrisoned" value="False" />
+													<bool name="healed" value="False" />
+													<float name="in_combat_since" value="-1" />
+													<bool name="injured" value="False" />
+													<bool name="leader" value="False" />
+													<bool name="not_moving" value="True" />
 													<bool name="not_retreating" value="False" />
 													<bool name="pinned" value="False" />
 													<bool name="suppressed" value="False" />
@@ -171,7 +185,7 @@
 		<float name="move_back_distance" value="0" />
 		<float name="range" value="0" />
 		<bool name="range_ignore" value="True" />
-		<float name="recharge_time" value="80" />
+		<float name="recharge_time" value="90" />
 		<bool name="refundable" value="False" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="squad_ability_1" />

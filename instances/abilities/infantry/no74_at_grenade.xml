@@ -91,7 +91,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="103" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="E" />
+			<string name="hotkey_name" value="F" />
 			<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
@@ -129,7 +129,7 @@
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="33" />
+		<int name="ui_position" value="32" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />

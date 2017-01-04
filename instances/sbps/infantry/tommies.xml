@@ -172,7 +172,6 @@
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\infantry\tommy_bren" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\tommy_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="upgrade" value="upgrade\infantry\tommy_boys" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
@@ -432,7 +431,6 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\infantry\first_aid" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\no36mk1_frag_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="ability" value="abilities\infantry\no68_at_rifle_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\no74_at_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />

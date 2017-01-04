@@ -175,6 +175,7 @@
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_minesweeper" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_flamethrower" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_assault" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\infantry\sapper_boys" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
@@ -556,27 +557,35 @@
 					<instance_reference name="construction_menu" value="construction_menu\basic" />
 					<list name="construction_items">
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\german\buildings\defensive_structure\slit_trench_german_mp" />
-							<int name="ui_position" value="24" />
-						</group>
-						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\defenses\mg_nest" mod="df1550dfa8424463bcf29079befc75fb" />
-							<int name="ui_position" value="11" />
-						</group>
-						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\gameplay\buildable_campfire_mp" />
+							<instance_reference name="ebp" value="ebps\weapons\vickers_k_nest" mod="df1550dfa8424463bcf29079befc75fb" />
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\defensive_structures\brit_barbed_wire_fence_mp" />
+							<instance_reference name="ebp" value="ebps\gameplay\buildable_campfire_mp" />
+							<int name="ui_position" value="24" />
+						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\defenses\barbed_wire" mod="df1550dfa8424463bcf29079befc75fb" />
 							<int name="ui_position" value="12" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\defensive_structures\brit_mine_mp" />
+							<instance_reference name="ebp" value="ebps\defenses\ap_shrapnel_mine" mod="df1550dfa8424463bcf29079befc75fb" />
 							<int name="ui_position" value="13" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\british\buildings\defensive_structures\british_sandbag_fence_mp" />
+							<instance_reference name="ebp" value="ebps\defenses\sandbags" mod="df1550dfa8424463bcf29079befc75fb" />
+							<int name="ui_position" value="11" />
+						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\weapons\25pounder" mod="df1550dfa8424463bcf29079befc75fb" />
+							<int name="ui_position" value="33" />
+						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\defenses\at_mine_gs" mod="df1550dfa8424463bcf29079befc75fb" />
+							<int name="ui_position" value="14" />
+						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\defenses\trench" mod="df1550dfa8424463bcf29079befc75fb" />
 							<int name="ui_position" value="21" />
 						</group>
 					</list>
@@ -586,8 +595,8 @@
 					<instance_reference name="construction_menu" value="construction_menu\advanced" />
 					<list name="construction_items">
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\buildings\t4" mod="df1550dfa8424463bcf29079befc75fb" />
-							<int name="ui_position" value="14" />
+							<instance_reference name="ebp" value="ebps\buildings\t3" mod="df1550dfa8424463bcf29079befc75fb" />
+							<int name="ui_position" value="13" />
 						</group>
 						<group name="construction_item">
 							<instance_reference name="ebp" value="ebps\buildings\t1" mod="df1550dfa8424463bcf29079befc75fb" />
@@ -604,10 +613,6 @@
 						<group name="construction_item">
 							<instance_reference name="ebp" value="ebps\races\soviet\buildings\observation_post\observation_post_munition_mp" />
 							<int name="ui_position" value="21" />
-						</group>
-						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\buildings\t3" mod="df1550dfa8424463bcf29079befc75fb" />
-							<int name="ui_position" value="13" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_german_pioneer_advanced" />

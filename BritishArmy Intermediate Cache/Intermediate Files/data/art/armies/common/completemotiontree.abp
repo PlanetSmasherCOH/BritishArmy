@@ -40,7 +40,6 @@ model =
 	"..\\british\\weapons\\boys_at_rifle\\boys_at_rifle",
 	"..\\british\\weapons\\piat\\piat",
 	"..\\british\\weapons\\3in_projector_sync\\3in_projector_sync",
---	"..\\british\\weapons\\25_pounder_sync\\25_pounder_sync",
 
 	-- west german common sync
 	"..\\west_german\\weapons\\lmg_mg34\\lmg_mg34",

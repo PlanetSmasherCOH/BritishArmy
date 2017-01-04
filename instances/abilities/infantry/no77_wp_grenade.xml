@@ -108,8 +108,8 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="89" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="D" />
-			<icon name="icon_name" value="Icons_abilities_ability_soviet_rgd_1_smoke_grenade" />
+			<string name="hotkey_name" value="E" />
+			<icon name="icon_name" value="Icons_abilities_ability_west_german_vahvw_grenade_launcher" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="88" mod="df1550dfa8424463bcf29079befc75fb" />
@@ -143,6 +143,14 @@
 						<bool name="camouflaged" value="False" />
 					</template_reference>
 				</list>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_player_upgrade">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="184" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="is_present" value="True" />
+				<float name="max_completed" value="100" />
+				<float name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\t1_infantry_equipment" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />

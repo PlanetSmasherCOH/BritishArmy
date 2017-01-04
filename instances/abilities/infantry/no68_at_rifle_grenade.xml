@@ -141,7 +141,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11072055" />
 			<locstring name="help_text" value="86" mod="df1550dfa8424463bcf29079befc75fb" />
-			<string name="hotkey_name" value="E" />
+			<string name="hotkey_name" value="F" />
 			<icon name="icon_name" value="Icons_abilities_ability_aef_m9a1_at_rifle_grenade" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />

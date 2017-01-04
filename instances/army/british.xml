@@ -168,26 +168,8 @@
 				<group name="building">
 					<locstring name="screen_name" value="53" mod="df1550dfa8424463bcf29079befc75fb" />
 					<icon name="symbol_icon_name" value="Icons_taskbar_coh_taskbar_01_sc_icon_03" />
-					<enum name="unit_type" value="armory" />
-					<icon name="icon_name" value="Icons_tooltips_tab_03_armory" />
-					<locstring name="help_text" value="0" />
-					<instance_reference name="self_destruct_ability" value="" />
-				</group>
-			</group>
-			<group name="production_building">
-				<group name="builder">
-					<locstring name="screen_name" value="0" />
-					<icon name="symbol_icon_name" value="" />
-					<enum name="unit_type" value="" />
-					<icon name="icon_name" value="" />
-					<locstring name="help_text" value="0" />
-					<instance_reference name="dispatch_ability" value="" />
-				</group>
-				<group name="building">
-					<locstring name="screen_name" value="52" mod="df1550dfa8424463bcf29079befc75fb" />
-					<icon name="symbol_icon_name" value="Icons_taskbar_coh_taskbar_01_sc_icon_04" />
 					<enum name="unit_type" value="motor_pool_light" />
-					<icon name="icon_name" value="Icons_tooltips_tab_04_light_factory" />
+					<icon name="icon_name" value="Icons_tooltips_tab_03_armory" />
 					<locstring name="help_text" value="0" />
 					<instance_reference name="self_destruct_ability" value="" />
 				</group>
@@ -377,7 +359,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="bunker" />
-				<instance_reference name="building" value="ebps\defenses\mg_nest" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="building" value="ebps\weapons\vickers_k_nest" mod="df1550dfa8424463bcf29079befc75fb" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">
@@ -401,7 +383,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="tier3" />
-				<instance_reference name="building" value="ebps\buildings\t3" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="building" value="" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">
@@ -409,7 +391,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="tier4" />
-				<instance_reference name="building" value="ebps\buildings\t4" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="building" value="ebps\buildings\t3" mod="df1550dfa8424463bcf29079befc75fb" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">

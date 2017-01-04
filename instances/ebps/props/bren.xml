@@ -285,7 +285,7 @@
 			<locstring name="help_text_world" value="11085807" />
 			<locstring name="extra_text_world" value="0" />
 			<enum name="map_rotation_type_override" value="no_override" />
-			<icon name="symbol_icon_name" value="" />
+			<icon name="symbol_icon_name" value="Icons_weapons_weapon_bren" />
 			<enum name="occlusion_state" value="can_be_occluded" />
 			<enum name="decorator_visibility" value="default" />
 			<string name="decorator_marker_name" value="Marker_FX_UI" />

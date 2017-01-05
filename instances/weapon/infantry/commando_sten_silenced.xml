@@ -7,19 +7,19 @@
 		</group>
 		<group name="aim">
 			<group name="fire_aim_time">
-				<float name="max" value="0.5" />
-				<float name="min" value="0.125" />
+				<float name="max" value="0.375" />
+				<float name="min" value="0.25" />
 			</group>
-			<float name="post_firing_aim_time" value="0.125" />
+			<float name="post_firing_aim_time" value="2" />
 			<float name="post_firing_cooldown_interval" value="0" />
 			<group name="ready_aim_time">
-				<float name="max" value="0.625" />
+				<float name="max" value="0.375" />
 				<float name="min" value="0.25" />
 			</group>
 			<group name="aim_time_multiplier">
-				<float name="near" value="0.375" />
-				<float name="far" value="2.5" />
-				<float name="mid" value="1.75" />
+				<float name="near" value="0.75" />
+				<float name="far" value="2" />
+				<float name="mid" value="1.25" />
 			</group>
 		</group>
 		<group name="anim_table">
@@ -181,10 +181,10 @@
 				<float name="suppression_multiplier" value="0" />
 			</group>
 			<group name="tp_garrison_halftrack">
-				<float name="accuracy_multiplier" value="0.5" />
-				<float name="damage_multiplier" value="0.5" />
+				<float name="accuracy_multiplier" value="0.25" />
+				<float name="damage_multiplier" value="1" />
 				<float name="penetration_multiplier" value="1" />
-				<float name="suppression_multiplier" value="0" />
+				<float name="suppression_multiplier" value="1" />
 			</group>
 			<group name="tp_heavy">
 				<float name="accuracy_multiplier" value="0.5" />
@@ -302,7 +302,7 @@
 		<float name="fx_delay_in_building" value="0" />
 		<string name="fx_munition_name" value="smg" />
 		<string name="fx_tracer_name" value="fx_sten_tracer_silencer" />
-		<float name="fx_tracer_speed" value="80" />
+		<float name="fx_tracer_speed" value="60" />
 		<bool name="fx_use_building_panel_normal" value="True" />
 		<locstring name="help_text" value="0" />
 		<icon name="icon_name" value="" />
@@ -320,7 +320,7 @@
 			<float name="offhand_start_time" value="0" />
 		</group>
 		<group name="priority">
-			<float name="current_target" value="15" />
+			<float name="current_target" value="8" />
 			<group name="distance">
 				<float name="far" value="-10" />
 				<float name="near" value="60" />
@@ -348,8 +348,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="3.2" />
-				<float name="min" value="2.1" />
+				<float name="max" value="3" />
+				<float name="min" value="2" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />
@@ -382,7 +382,7 @@
 		</group>
 		<group name="setup">
 			<float name="duration" value="0" />
-			<bool name="has_instant_setup" value="True" />
+			<bool name="has_instant_setup" value="False" />
 			<bool name="can_interrupt_setup" value="False" />
 			<float name="attach_duration" value="0" />
 		</group>

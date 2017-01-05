@@ -11,8 +11,8 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="" />
-			<string name="code_2" value="" />
+			<string name="code_1" value="lvv" />
+			<string name="code_2" value="lmg" />
 			<string name="code_3" value="" />
 		</group>
 		<group name="time_cost">
@@ -21,31 +21,37 @@
 				<float name="command" value="0" />
 				<float name="fuel" value="0" />
 				<float name="manpower" value="0" />
-				<float name="munition" value="60" />
+				<float name="munition" value="20" />
 				<float name="popcap" value="0" />
 			</group>
-			<float name="time_seconds" value="30" />
+			<float name="time_seconds" value="10" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="unit_upgrade_panel" />
 		<int name="ui_position" value="1" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="0" />
-			<locstring name="help_text" value="0" />
-			<string name="hotkey_name" value="P" />
-			<icon name="icon_name" value="Icons_buildings_building_british_weapon_rack_piat" />
+			<locstring name="extra_text" value="189" mod="df1550dfa8424463bcf29079befc75fb" />
+			<locstring name="help_text" value="188" mod="df1550dfa8424463bcf29079befc75fb" />
+			<string name="hotkey_name" value="V" />
+			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_british_vickers_lmg" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="95" mod="df1550dfa8424463bcf29079befc75fb" />
+			<locstring name="screen_name" value="55" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<enum name="ui_style" value="default" />
 		</group>
 		<bool name="validate_actions" value="True" />
 		<list name="actions">
+			<template_reference name="action" value="action\slot_item_remove">
+				<bool name="fire_and_forget" value="False" />
+				<bool name="random" value="False" />
+				<instance_reference name="slot_item" value="slot_item\infantry\bren" mod="df1550dfa8424463bcf29079befc75fb" />
+				<uniqueid name="id" value="1073743239" />
+			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\piat" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
-				<uniqueid name="id" value="1073742949" />
+				<uniqueid name="id" value="1073743238" />
 			</template_reference>
 		</list>
 		<list name="requirements">
@@ -57,37 +63,41 @@
 				<bool name="is_secured_by_checkpoint" value="False" />
 				<bool name="not_in_transition" value="False" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_slot_item_size">
-				<enum name="reason" value="usage_and_display" />
+			<template_reference name="required" value="requirements\required_player_upgrade">
+				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
-				<float name="required_free_slot_size" value="1" />
+				<bool name="is_present" value="True" />
+				<float name="max_completed" value="100" />
+				<float name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\t1_infantry_equipment" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_squad_upgrade">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="include_queued" value="False" />
 				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="upgrade\infantry\commando_piat_double" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade_name" value="upgrade\infantry\tommy_bren" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_slot_item">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="check_item_on_entity" value="False" />
 				<bool name="display_requirement" value="False" />
-				<float name="max_owned" value="1" />
+				<float name="max_owned" value="10" />
 				<float name="min_owned" value="1" />
-				<instance_reference name="slot_item" value="slot_item\infantry\piat" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\bren" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="184" mod="df1550dfa8424463bcf29079befc75fb" />
-				<bool name="is_present" value="True" />
-				<float name="max_completed" value="100" />
-				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\t1_infantry_equipment" mod="df1550dfa8424463bcf29079befc75fb" />
+			<template_reference name="required" value="requirements\required_slot_item">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="check_item_on_entity" value="False" />
+				<bool name="display_requirement" value="False" />
+				<float name="max_owned" value="0" />
+				<float name="min_owned" value="0" />
+				<instance_reference name="slot_item" value="slot_item\infantry\vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 		</list>
-		<icon name="ui_kicker_icon_name" value="Icons_weapons_weapon_piat" />
+		<icon name="ui_kicker_icon_name" value="Icons_weapons_weapon_vickers_lmg" />
 		<locstring name="ui_squad_name_override" value="0" />
 		<locstring name="ui_squad_help_text_override" value="0" />
 		<locstring name="ui_squad_extra_text_override" value="0" />
@@ -98,5 +108,5 @@
 		<list name="on_begin_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741836" />
+	<uniqueid name="pbgid" value="1073741849" />
 </instance>

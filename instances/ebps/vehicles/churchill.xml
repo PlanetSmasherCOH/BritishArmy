@@ -676,10 +676,10 @@
 								<float name="z" value="0.1" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\vehicles\churchill_75mm" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="weapon" value="weapon\vehicles\cromwell_valentine_churchill_75mm" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
-					<bool name="receives_attack_commands" value="False" />
+					<bool name="receives_attack_commands" value="True" />
 				</group>
 				<group name="hardpoint">
 					<float name="parent_hardpoint" value="1" />
@@ -719,6 +719,21 @@
 							</group>
 							<enum name="type" value="default" />
 							<instance_reference name="weapon" value="weapon\vehicles\tank_besa_hull" mod="df1550dfa8424463bcf29079befc75fb" />
+						</group>
+						<group name="weapon">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="4" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="-0.35" />
+								<float name="y" value="1.6" />
+								<float name="z" value="2.45" />
+							</group>
+							<enum name="type" value="default" />
+							<instance_reference name="weapon" value="weapon\british\flame_throwers\churchill_flamethrower_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

@@ -597,7 +597,7 @@
 								<float name="z" value="1.1" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\vehicles\valentine_75mm" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="weapon" value="weapon\vehicles\cromwell_valentine_churchill_75mm" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="True" />

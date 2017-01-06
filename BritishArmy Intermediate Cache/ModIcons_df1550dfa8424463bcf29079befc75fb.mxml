@@ -10,14 +10,26 @@
 		public static var british_commando_camouflage_inactive_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_firefly_rp3_reload_icon.png')]
 		public static var british_firefly_rp3_reload_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_medical_supplies_disable.png')]
+		public static var british_medical_supplies_disable:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_mortar_squad_icon.png')]
 		public static var british_mortar_squad_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_no74_grenade_icon.png')]
 		public static var british_no74_grenade_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_piat_package_icon.png')]
 		public static var british_piat_package_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_repair_station_disable.png')]
+		public static var british_repair_station_disable:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_switch_bren_for_vickers_icon.png')]
 		public static var british_switch_bren_for_vickers_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_tank_spotter_disable_icon.png')]
+		public static var british_tank_spotter_disable_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_valentine_defensive_mode_disable_icon.png')]
+		public static var british_valentine_defensive_mode_disable_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_valentine_defensive_mode_icon.png')]
+		public static var british_valentine_defensive_mode_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/medic_symbol.png')]
+		public static var medic_symbol:Class;
 		]]>
 	</fx:Script>
 </display:MovieClip>

@@ -1,6 +1,6 @@
 <instance description="" template="slot_item">
 	<group name="slot_item_bag">
-		<bool name="always_pick_up" value="False" />
+		<bool name="always_pick_up" value="True" />
 		<bool name="can_stack" value="False" />
 		<float name="can_stack_max" value="1" />
 		<instance_reference name="drop_item_entity" value="ebps\props\bren" mod="df1550dfa8424463bcf29079befc75fb" />

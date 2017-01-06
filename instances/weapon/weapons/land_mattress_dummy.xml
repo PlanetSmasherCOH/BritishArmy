@@ -338,7 +338,7 @@
 			<instance_reference name="projectile" value="" />
 		</group>
 		<group name="range">
-			<float name="max" value="180" />
+			<float name="max" value="120" />
 			<float name="min" value="35" />
 			<group name="distance">
 				<float name="near" value="-1" />
@@ -432,7 +432,7 @@
 		<locstring name="ui_name" value="0" />
 		<enum name="weapon_type" value="big_explosive" />
 		<instance_reference name="ui_range" value="" />
-		<instance_reference name="ui_setfacing" value="" />
+		<instance_reference name="ui_setfacing" value="ui_setfacing\weapon_artillery" />
 		<group name="penetration">
 			<float name="mid" value="0" />
 			<float name="far" value="0" />

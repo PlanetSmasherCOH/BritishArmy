@@ -110,7 +110,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext">
 			<group name="unit_type_list">
-				<enum name="unit_type00" value="armory" />
+				<enum name="unit_type00" value="motor_pool_light" />
 				<enum name="unit_type01" value="building" />
 				<enum name="unit_type02" value="annihilation_condition" />
 				<enum name="unit_type03" value="production_building" />
@@ -149,7 +149,7 @@
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="False" />
 			<instance_reference name="on_construction_squad" value="" />
-			<float name="orientation" value="0" />
+			<float name="orientation" value="270" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
 			<bool name="query_abilities_for_range_ui" value="True" />
@@ -293,7 +293,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="xpc" />
+				<string name="code_1" value="xcc" />
 				<string name="code_2" value="bld" />
 				<string name="code_3" value="" />
 			</group>
@@ -471,6 +471,18 @@
 					<int name="required_structure_count" value="1" />
 					<bool name="check_team" value="False" />
 					<bool name="require_construction_complete" value="True" />
+				</template_reference>
+				<template_reference name="required" value="requirements\required_not">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="231" mod="df1550dfa8424463bcf29079befc75fb" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_entity">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<instance_reference name="entity_blueprint_name" value="ebps\buildings\t2" mod="df1550dfa8424463bcf29079befc75fb" />
+							<enum name="entity_type" value="" />
+						</template_reference>
+					</list>
 				</template_reference>
 			</list>
 		</template_reference>

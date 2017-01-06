@@ -1160,7 +1160,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\vehicles\tank_commander" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\tank_spotter" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\vehicles\firefly_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>

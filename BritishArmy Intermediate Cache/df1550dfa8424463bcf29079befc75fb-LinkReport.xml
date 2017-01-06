@@ -1,18 +1,23 @@
 <report>
   <scripts>
-    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon.as" mod="1476099679239" size="351" optimizedsize="318">
-      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon" />
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_firefly_rp3_reload_icon.as" mod="1481932487557" size="357" optimizedsize="324">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_firefly_rp3_reload_icon" />
       <pre id="mx.core:BitmapAsset" />
       <dep id="AS3" />
     </script>
-    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_firefly_rp3_reload_icon.as" mod="1481932487557" size="357" optimizedsize="324">
-      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_firefly_rp3_reload_icon" />
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon.as" mod="1476099679239" size="351" optimizedsize="318">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon" />
       <pre id="mx.core:BitmapAsset" />
       <dep id="AS3" />
     </script>
     <script name="C:\Program Files (x86)\Apache Flex\frameworks\libs\core.swc(mx.core:IFlexAsset)" mod="1451275290000" size="275" optimizedsize="98">
       <def id="mx.core:IFlexAsset" />
       <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_tank_spotter_disable_icon.as" mod="1483658802403" size="359" optimizedsize="326">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_tank_spotter_disable_icon" />
+      <pre id="mx.core:BitmapAsset" />
       <dep id="AS3" />
     </script>
     <script name="C:\Program Files (x86)\Apache Flex\frameworks\libs\core.swc(mx.core:BitmapAsset)" mod="1451275290000" size="6956" optimizedsize="3793">
@@ -31,6 +36,11 @@
       <dep id="mx.core:mx_internal" />
       <dep id="mx.core:IAssetLayoutFeatures" />
     </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_medical_supplies_disable.as" mod="1483648963435" size="358" optimizedsize="325">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_medical_supplies_disable" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
+    </script>
     <script name="C:\Program Files (x86)\Apache Flex\frameworks\libs\core.swc(mx.core:IFlexDisplayObject)" mod="1451275290000" size="6008" optimizedsize="1339">
       <def id="mx.core:IFlexDisplayObject" />
       <pre id="flash.events:IEventDispatcher" />
@@ -46,9 +56,19 @@
       <dep id="flash.geom:Rectangle" />
       <dep id="flash.accessibility:AccessibilityProperties" />
     </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_medic_symbol.as" mod="1483654277293" size="338" optimizedsize="305">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_medic_symbol" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
+    </script>
     <script name="C:\Program Files (x86)\Apache Flex\frameworks\libs\core.swc(mx.core:ILayoutDirectionElement)" mod="1451275290000" size="752" optimizedsize="239">
       <def id="mx.core:ILayoutDirectionElement" />
       <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_repair_station_disable.as" mod="1483649009617" size="356" optimizedsize="323">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_repair_station_disable" />
+      <pre id="mx.core:BitmapAsset" />
       <dep id="AS3" />
     </script>
     <script name="C:\Program Files (x86)\Apache Flex\frameworks\libs\core.swc(mx.core:FlexBitmap)" mod="1451275290000" size="895" optimizedsize="534">
@@ -62,6 +82,16 @@
     </script>
     <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_piat_package_icon.as" mod="1481979096589" size="351" optimizedsize="318">
       <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_piat_package_icon" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
+    </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_valentine_defensive_mode_icon.as" mod="1483662686227" size="363" optimizedsize="330">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_valentine_defensive_mode_icon" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
+    </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_valentine_defensive_mode_disable_icon.as" mod="1483662722877" size="371" optimizedsize="338">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_valentine_defensive_mode_disable_icon" />
       <pre id="mx.core:BitmapAsset" />
       <dep id="AS3" />
     </script>
@@ -91,7 +121,7 @@
       <def id="mx.core:mx_internal" />
       <dep id="AS3" />
     </script>
-    <script name="E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\ModIcons_df1550dfa8424463bcf29079befc75fb.mxml" mod="1481983407514" size="1327" optimizedsize="1285">
+    <script name="E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\ModIcons_df1550dfa8424463bcf29079befc75fb.mxml" mod="1483662872924" size="2089" optimizedsize="2029">
       <def id="ModIcons_df1550dfa8424463bcf29079befc75fb" />
       <pre id="flash.display:MovieClip" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_piat_package_icon" />
@@ -100,9 +130,15 @@
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_switch_bren_for_vickers_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_ap_shrapnel_mine_mk2_icon" />
-      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_at_mine_gs_mk5" />
-      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_medic_symbol" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_firefly_rp3_reload_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_tank_spotter_disable_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_valentine_defensive_mode_disable_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_repair_station_disable" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_at_mine_gs_mk5" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_medical_supplies_disable" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_valentine_defensive_mode_icon" />
     </script>
     <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_ap_shrapnel_mine_mk2_icon.as" mod="1481981384728" size="359" optimizedsize="326">
       <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_ap_shrapnel_mine_mk2_icon" />

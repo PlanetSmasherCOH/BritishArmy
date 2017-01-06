@@ -33,7 +33,7 @@
 			<locstring name="extra_text" value="189" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="help_text" value="188" mod="df1550dfa8424463bcf29079befc75fb" />
 			<string name="hotkey_name" value="V" />
-			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_british_vickers_lmg" />
+			<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_switch_bren_for_vickers_icon" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="55" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="brief_text" value="0" />

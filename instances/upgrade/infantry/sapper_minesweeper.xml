@@ -81,7 +81,7 @@
 			<template_reference name="required" value="requirements\required_squad_upgrade">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<bool name="include_queued" value="False" />
+				<bool name="include_queued" value="True" />
 				<bool name="is_present" value="False" />
 				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_flamethrower" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>

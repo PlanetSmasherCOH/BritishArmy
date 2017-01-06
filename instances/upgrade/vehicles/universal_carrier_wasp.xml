@@ -28,7 +28,7 @@
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="unit_upgrade_panel" />
-		<int name="ui_position" value="1" />
+		<int name="ui_position" value="6" />
 		<group name="ui_info">
 			<locstring name="extra_text" value="173" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="help_text" value="168" mod="df1550dfa8424463bcf29079befc75fb" />
@@ -82,10 +82,44 @@
 			<template_reference name="action" value="action\animator_set_state">
 				<bool name="apply_to_leader_only" value="False" />
 				<string name="do_action_state_name" value="flamer" />
-				<bool name="retrigger" value="False" />
+				<bool name="retrigger" value="True" />
 				<string name="state_machine_name" value="variant" />
 				<string name="undo_action_state_name" value="" />
 				<uniqueid name="id" value="1073743230" />
+			</template_reference>
+			<template_reference name="action" value="action\apply_crew_action">
+				<bool name="apply_removal" value="True" />
+				<string name="crew_name" value="bren_crew_fl" />
+				<bool name="kill" value="False" />
+				<uniqueid name="id" value="1073743320" />
+			</template_reference>
+			<template_reference name="action" value="action\apply_crew_action">
+				<bool name="apply_removal" value="True" />
+				<string name="crew_name" value="bren_crew_fr" />
+				<bool name="kill" value="False" />
+				<uniqueid name="id" value="1073743321" />
+			</template_reference>
+			<template_reference name="action" value="action\apply_crew_action">
+				<bool name="apply_removal" value="True" />
+				<string name="crew_name" value="bren_crew_bl" />
+				<bool name="kill" value="False" />
+				<uniqueid name="id" value="1073743322" />
+			</template_reference>
+			<template_reference name="action" value="action\apply_crew_action">
+				<bool name="apply_removal" value="True" />
+				<string name="crew_name" value="bren_crew_br" />
+				<bool name="kill" value="False" />
+				<uniqueid name="id" value="1073743323" />
+			</template_reference>
+			<template_reference name="action" value="action\upgrade_remove">
+				<bool name="apply_to_entities_in_squad" value="True" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\universal_carrier_reinforcement" mod="df1550dfa8424463bcf29079befc75fb" />
+				<uniqueid name="id" value="1073743324" />
+			</template_reference>
+			<template_reference name="action" value="action\upgrade_remove">
+				<bool name="apply_to_entities_in_squad" value="True" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\universal_carrier_engineers" mod="df1550dfa8424463bcf29079befc75fb" />
+				<uniqueid name="id" value="1073743399" />
 			</template_reference>
 		</list>
 		<list name="requirements">
@@ -114,14 +148,21 @@
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="False" />
+				<instance_reference name="upgrade_name" value="upgrade\vehicles\universal_carrier_medics" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="include_queued" value="True" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_entity_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="is_present" value="False" />
 				<instance_reference name="upgrade_name" value="upgrade\vehicles\universal_carrier_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="include_queued" value="True" />
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="Icons_weapons_churchill_crocodile" />
-		<locstring name="ui_squad_name_override" value="0" />
+		<locstring name="ui_squad_name_override" value="191" mod="df1550dfa8424463bcf29079befc75fb" />
 		<locstring name="ui_squad_help_text_override" value="0" />
-		<locstring name="ui_squad_extra_text_override" value="0" />
+		<locstring name="ui_squad_extra_text_override" value="193" mod="df1550dfa8424463bcf29079befc75fb" />
 		<list name="ui_preview">
 		</list>
 		<list name="on_cancel_actions">

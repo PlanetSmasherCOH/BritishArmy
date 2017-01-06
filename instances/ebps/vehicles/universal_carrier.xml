@@ -16,6 +16,9 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
+				<instance_reference name="ability" value="abilities\vehicles\emergency_warspeed" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\vehicles\universal_carrier_healing" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\vehicles\universal_carrier_repair" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext">
@@ -24,7 +27,7 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="20" />
-					<float name="manpower" value="240" />
+					<float name="manpower" value="180" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -794,349 +797,27 @@
 		<template_reference name="exts" value="ebpextensions\crew_ext">
 			<list name="race_list">
 				<group name="race_data">
-					<instance_reference name="ext_key" value="racebps\german" />
-					<group name="info">
-						<string name="sync_target_name" value="Vehicle_Target" />
-						<list name="role_list">
-							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="bren_Driver" />
-								<string name="sync_action_name" value="attach_driver_bren" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_driver" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner_seated" />
-								<string name="sync_action_name" value="attach_bren_gunner" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner" />
-								<string name="sync_action_name" value="Attach_Pintle" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-						</list>
-						<template_reference name="additional_crew_option" value="options\ebpextensions\crewext\additional_crew_option">
-							<list name="role_list">
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fl" />
-									<string name="sync_action_name" value="attach_bren_crew_fl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_br" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_br" />
-									<string name="sync_action_name" value="attach_bren_crew_br" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_bl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_bl" />
-									<string name="sync_action_name" value="attach_bren_crew_bl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fr" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fr" />
-									<string name="sync_action_name" value="attach_bren_crew_fr" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-							</list>
-							<string name="animator_state" value="bren_crew_count" />
-						</template_reference>
-					</group>
-				</group>
-				<group name="race_data">
-					<instance_reference name="ext_key" value="racebps\soviet" />
-					<group name="info">
-						<string name="sync_target_name" value="Vehicle_Target" />
-						<list name="role_list">
-							<group name="role">
-								<string name="animator_bp" value="armies\soviet\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="bren_Driver" />
-								<string name="sync_action_name" value="attach_driver_bren" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_driver" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\soviet\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner_seated" />
-								<string name="sync_action_name" value="attach_bren_gunner" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\soviet\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner" />
-								<string name="sync_action_name" value="Attach_Pintle" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-						</list>
-						<template_reference name="additional_crew_option" value="options\ebpextensions\crewext\additional_crew_option">
-							<list name="role_list">
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fl" />
-									<string name="sync_action_name" value="attach_bren_crew_fl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_br" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_br" />
-									<string name="sync_action_name" value="attach_bren_crew_br" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_bl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_bl" />
-									<string name="sync_action_name" value="attach_bren_crew_bl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fr" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fr" />
-									<string name="sync_action_name" value="attach_bren_crew_fr" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-							</list>
-							<string name="animator_state" value="bren_crew_count" />
-						</template_reference>
-					</group>
-				</group>
-				<group name="race_data">
-					<instance_reference name="ext_key" value="racebps\west_german" />
-					<group name="info">
-						<string name="sync_target_name" value="Vehicle_Target" />
-						<list name="role_list">
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="bren_Driver" />
-								<string name="sync_action_name" value="attach_driver_bren" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_driver" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner_seated" />
-								<string name="sync_action_name" value="attach_bren_gunner" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\west_german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner" />
-								<string name="sync_action_name" value="Attach_Pintle" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-						</list>
-						<template_reference name="additional_crew_option" value="options\ebpextensions\crewext\additional_crew_option">
-							<list name="role_list">
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fl" />
-									<string name="sync_action_name" value="attach_bren_crew_fl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_br" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_br" />
-									<string name="sync_action_name" value="attach_bren_crew_br" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_bl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_bl" />
-									<string name="sync_action_name" value="attach_bren_crew_bl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fr" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fr" />
-									<string name="sync_action_name" value="attach_bren_crew_fr" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-							</list>
-							<string name="animator_state" value="bren_crew_count" />
-						</template_reference>
-					</group>
-				</group>
-				<group name="race_data">
-					<instance_reference name="ext_key" value="racebps\aef" />
-					<group name="info">
-						<string name="sync_target_name" value="Vehicle_Target" />
-						<list name="role_list">
-							<group name="role">
-								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="bren_Driver" />
-								<string name="sync_action_name" value="attach_driver_bren" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_driver" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner_seated" />
-								<string name="sync_action_name" value="attach_bren_gunner" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\aef\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner" />
-								<string name="sync_action_name" value="Attach_Pintle" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-						</list>
-						<template_reference name="additional_crew_option" value="options\ebpextensions\crewext\additional_crew_option">
-							<list name="role_list">
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fl" />
-									<string name="sync_action_name" value="attach_bren_crew_fl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_br" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_br" />
-									<string name="sync_action_name" value="attach_bren_crew_br" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_bl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_bl" />
-									<string name="sync_action_name" value="attach_bren_crew_bl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fr" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fr" />
-									<string name="sync_action_name" value="attach_bren_crew_fr" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-							</list>
-							<string name="animator_state" value="bren_crew_count" />
-						</template_reference>
-					</group>
-				</group>
-				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\british" />
 					<group name="info">
 						<string name="sync_target_name" value="Vehicle_Target" />
 						<list name="role_list">
 							<group name="role">
-								<string name="animator_bp" value="armies\british\soldiers\tommy\tommy" />
+								<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="bren_Driver" />
 								<string name="sync_action_name" value="attach_driver_bren" />
 								<bool name="sync_on_create" value="True" />
+								<string name="abandon_event_name" value="abandon_bren_driver" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\medic\medic" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_Driver_medic" />
+								<string name="sync_action_name" value="attach_driver_bren" />
+								<bool name="sync_on_create" value="False" />
 								<string name="abandon_event_name" value="abandon_bren_driver" />
 								<string name="animator_bp_female" value="" />
 							</group>
@@ -1151,13 +832,123 @@
 								<string name="animator_bp_female" value="" />
 							</group>
 							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\medic\medic" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="Gunner_seated_medic" />
+								<string name="sync_action_name" value="attach_bren_gunner" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_gunner" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\officer\officer" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="Gunner_seated_officer" />
+								<string name="sync_action_name" value="attach_bren_gunner" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_gunner" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
 								<string name="animator_bp" value="armies\british\soldiers\tommy\tommy" />
 								<string name="death_event_name" value="Death_crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="Gunner" />
 								<string name="sync_action_name" value="Attach_Pintle" />
-								<bool name="sync_on_create" value="True" />
+								<bool name="sync_on_create" value="False" />
 								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\engineer\engineer" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="Gunner_engineer" />
+								<string name="sync_action_name" value="Attach_Pintle" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\tommy\tommy" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_fl" />
+								<string name="sync_action_name" value="attach_bren_crew_fl" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_fl" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\commando\commando" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_br" />
+								<string name="sync_action_name" value="attach_bren_crew_br" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_br" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\engineer\engineer" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_bl" />
+								<string name="sync_action_name" value="attach_bren_crew_bl" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_bl" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\tommy\tommy" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_fr" />
+								<string name="sync_action_name" value="attach_bren_crew_fr" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_fr" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\engineer\engineer" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_fl_engineer" />
+								<string name="sync_action_name" value="attach_bren_crew_fl" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_fl" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\engineer\engineer" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_fr_engineer" />
+								<string name="sync_action_name" value="attach_bren_crew_fr" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_fr" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\engineer\engineer" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_bl_engineer" />
+								<string name="sync_action_name" value="attach_bren_crew_bl" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_bl" />
+								<string name="animator_bp_female" value="" />
+							</group>
+							<group name="role">
+								<string name="animator_bp" value="armies\british\soldiers\engineer\engineer" />
+								<string name="death_event_name" value="Death_crew" />
+								<string name="desync_action_name" value="Detach_Skeleton" />
+								<string name="role_name" value="bren_crew_br_engineer" />
+								<string name="sync_action_name" value="attach_bren_crew_br" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_bren_crew_br" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
@@ -1191,99 +982,6 @@
 									<string name="desync_action_game" value="Detach_Skeleton" />
 									<string name="role_name" value="bren_crew_bl" />
 									<string name="sync_action_name" value="attach_bren_crew_bl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fr" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fr" />
-									<string name="sync_action_name" value="attach_bren_crew_fr" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-							</list>
-							<string name="animator_state" value="bren_crew_count" />
-						</template_reference>
-					</group>
-				</group>
-				<group name="race_data">
-					<instance_reference name="ext_key" value="" />
-					<group name="info">
-						<string name="sync_target_name" value="Vehicle_Target" />
-						<list name="role_list">
-							<group name="role">
-								<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="bren_Driver" />
-								<string name="sync_action_name" value="attach_driver_bren" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_driver" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner_seated" />
-								<string name="sync_action_name" value="attach_bren_gunner" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_bren_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-							<group name="role">
-								<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner" />
-								<string name="sync_action_name" value="Attach_Pintle" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-						</list>
-						<template_reference name="additional_crew_option" value="options\ebpextensions\crewext\additional_crew_option">
-							<list name="role_list">
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fl" />
-									<string name="sync_action_name" value="attach_bren_crew_fl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_br" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_br" />
-									<string name="sync_action_name" value="attach_bren_crew_br" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_bl" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_bl" />
-									<string name="sync_action_name" value="attach_bren_crew_bl" />
-									<bool name="sync_on_create" value="True" />
-								</template_reference>
-								<template_reference name="role" value="crew_role">
-									<string name="abandon_event_name" value="abandon_bren_crew_fr" />
-									<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-									<string name="animator_bp_female" value="" />
-									<string name="death_event_name" value="Death_crew" />
-									<string name="desync_action_game" value="Detach_Skeleton" />
-									<string name="role_name" value="bren_crew_fr" />
-									<string name="sync_action_name" value="attach_bren_crew_fr" />
 									<bool name="sync_on_create" value="True" />
 								</template_reference>
 							</list>
@@ -1423,6 +1121,10 @@
 			<list name="standard_upgrades">
 				<instance_reference name="upgrade" value="upgrade\vehicles\universal_carrier_wasp" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\vehicles\universal_carrier_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\universal_carrier_reinforcement" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\universal_carrier_medics" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\universal_carrier_engineers" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\add_officer" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\marker_ext">
@@ -1449,9 +1151,9 @@
 			<float name="load_seconds" value="1" />
 			<float name="max_load_seconds" value="4" />
 			<float name="min_hold_seconds" value="1" />
-			<float name="num_slots" value="12" />
+			<float name="num_slots" value="6" />
 			<float name="num_squad_slots" value="1" />
-			<float name="percent_unload_on_death" value="0.5" />
+			<float name="percent_unload_on_death" value="0" />
 			<bool name="revert_ownership" value="False" />
 			<bool name="scavenge_enabled" value="False" />
 			<group name="scavenge_resource">
@@ -1477,23 +1179,14 @@
 				</template_reference>
 			</list>
 			<list name="on_loading_modifiers">
-				<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
+				<template_reference name="modifier" value="modifiers\move_enable_modifier">
 					<enum name="application_type" value="apply_to_entity" />
 					<bool name="exclusive" value="False" />
 					<string name="modifier_id" value="" />
 					<string name="target_type_name" value="" />
-					<enum name="usage_type" value="multiplication" />
-					<float name="value" value="0.01" />
-					<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
-				</template_reference>
-				<template_reference name="modifier" value="modifiers\rotation_speed_modifier">
-					<enum name="application_type" value="apply_to_entity" />
-					<bool name="exclusive" value="False" />
-					<string name="modifier_id" value="" />
-					<string name="target_type_name" value="" />
-					<enum name="usage_type" value="multiplication" />
-					<float name="value" value="0.01" />
-					<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
+					<enum name="usage_type" value="enable" />
+					<float name="value" value="-1" />
+					<instance_reference name="tooltip" value="modifier_tooltip\move_enable_modifier" />
 				</template_reference>
 			</list>
 			<list name="on_loaded_squad_actions">
@@ -1507,11 +1200,6 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\remove_crew_action">
-					<string name="crew_name" value="Gunner" />
-					<bool name="kill" value="False" />
-					<uniqueid name="id" value="1073742510" />
-				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\spawner_ext">
@@ -1527,15 +1215,8 @@
 				<template_reference name="required" value="requirements\required_entity_upgrade">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
-					<bool name="is_present" value="False" />
-					<instance_reference name="upgrade_name" value="upgrade\vehicles\universal_carrier_wasp" mod="df1550dfa8424463bcf29079befc75fb" />
-					<bool name="include_queued" value="False" />
-				</template_reference>
-				<template_reference name="required" value="requirements\required_entity_upgrade">
-					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="0" />
-					<bool name="is_present" value="False" />
-					<instance_reference name="upgrade_name" value="upgrade\vehicles\universal_carrier_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
+					<bool name="is_present" value="True" />
+					<instance_reference name="upgrade_name" value="upgrade\vehicles\universal_carrier_reinforcement" mod="df1550dfa8424463bcf29079befc75fb" />
 					<bool name="include_queued" value="False" />
 				</template_reference>
 			</list>

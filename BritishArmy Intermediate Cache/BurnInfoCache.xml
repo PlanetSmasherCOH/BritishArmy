@@ -31,7 +31,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\no77_wp_grenade.xml</FileName>
-			<FileHash>2eb2a3deda5ac8aef84596bba3316dd6</FileHash>
+			<FileHash>20f490256fdc92332d2797bf590c0ed0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\sapper_cut_wire.xml</FileName>
@@ -59,11 +59,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\vehicles\universal_carrier_healing.xml</FileName>
-			<FileHash>705827af17644020d9e3de754c22a8e8</FileHash>
+			<FileHash>dacc455f24db6823db75e5a946484d35</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\vehicles\universal_carrier_repair.xml</FileName>
-			<FileHash>6c25bc61219269e455809fab59b4b3d4</FileHash>
+			<FileHash>8a68973c76e35228ede574e3c513c6c4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\vehicles\valentine_defensive_mode.xml</FileName>
@@ -71,7 +71,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\vehicles\valentine_spotter.xml</FileName>
-			<FileHash>2c738b4ce40147d43deb569704eed134</FileHash>
+			<FileHash>a222ee686fd04941477356f0e9d14797</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\weapons\25pounder_barrage.xml</FileName>
@@ -103,11 +103,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\buildings\t0.xml</FileName>
-			<FileHash>8a44c9d98ea48dada8f10fb2eb752b3a</FileHash>
+			<FileHash>42d9d266712ceb3d43342347a897d8a9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\buildings\t1.xml</FileName>
-			<FileHash>b64ff02b3a992f83d26db2f2055752e4</FileHash>
+			<FileHash>97cfd6409b1936a7fb09778d653632c5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\buildings\t2.xml</FileName>
@@ -283,7 +283,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\vehicles\valentine.xml</FileName>
-			<FileHash>99ba8c09141afc8cfbfe43cafa55c65a</FileHash>
+			<FileHash>255d4f0f3ed2fcbbdde6f212fa4557cc</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\weapons\25pounder.xml</FileName>
@@ -311,7 +311,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\infantry\commandos.xml</FileName>
-			<FileHash>8c369d2ff74a2f8190f566e00dd4c175</FileHash>
+			<FileHash>2505171e98fc13144ad201d1e09ecb33</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\infantry\marksman.xml</FileName>
@@ -323,7 +323,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\infantry\sappers.xml</FileName>
-			<FileHash>15064e09e4da3c39e1d0037be1c0bcf5</FileHash>
+			<FileHash>41ccc9fe42c161695cb683ae6b3020c9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\infantry\tommies.xml</FileName>
@@ -483,7 +483,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\infantry\sapper_assault.xml</FileName>
-			<FileHash>04c82df35a73798c8772877afd68bf01</FileHash>
+			<FileHash>3416a6f3b607ca2fcf18cc0277b67bb2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\infantry\sapper_boys.xml</FileName>
@@ -531,7 +531,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\universal_carrier_engineers.xml</FileName>
-			<FileHash>8414e8101bb180282207e53fdb61cb99</FileHash>
+			<FileHash>cda2ef336ec372da5e1bad345418320e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\universal_carrier_medics.xml</FileName>
@@ -735,7 +735,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\locale\english\english.ucs</FileName>
-			<FileHash>5057ff09bd04d92aff1a6472f21922ae</FileHash>
+			<FileHash>64ae9ea9128168d5136bea0c251aa546</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\info\df1550dfa8424463bcf29079befc75fb.info</FileName>
@@ -778,6 +778,14 @@
 			<FileHash>1f6937c1d1862f2b8561d5ef2fc1343a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_assault_sappers_icon.png</FileName>
+			<FileHash>33889d572af0acaa9240237f2ab5c275</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_assault_sappers_symbol.png</FileName>
+			<FileHash>0da5f13a39bf59c6c4ab84f1eafaf8c1</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_at_mine_gs_mk5.png</FileName>
 			<FileHash>e6009c2654f2bf3024c79c4e82f7db55</FileHash>
 		</BurnInfo>
@@ -808,6 +816,14 @@
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_repair_station_disable.png</FileName>
 			<FileHash>3dae9a28f96d0af9000543f45804a365</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_sten_silenced_symbol.png</FileName>
+			<FileHash>1366f38cae299dd277930bee2d918a0c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_sten_symbol.png</FileName>
+			<FileHash>18f448038fa289b0cb8d1fc9fa426d37</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_switch_bren_for_vickers_icon.png</FileName>

@@ -458,6 +458,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\infantry\first_aid" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="ability" value="abilities\infantry\no36mk1_frag_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\no77_wp_grenade" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\commando_camouflage" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\infantry\commando_hold_fire" mod="df1550dfa8424463bcf29079befc75fb" />

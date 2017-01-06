@@ -1,7 +1,7 @@
 <instance description="" template="upgrade">
 	<group name="upgrade_bag">
 		<bool name="enable_in_hold" value="True" />
-		<float name="global_max_limit" value="0" />
+		<float name="global_max_limit" value="1" />
 		<bool name="has_speech_code" value="True" />
 		<float name="local_max_limit" value="1" />
 		<enum name="owner_type" value="self" />

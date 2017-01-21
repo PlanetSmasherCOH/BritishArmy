@@ -83,12 +83,12 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="120" />
+					<float name="fuel" value="130" />
 					<float name="manpower" value="360" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="55" />
+				<float name="time_seconds" value="60" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -1106,7 +1106,7 @@
 			<bool name="smooth_path" value="True" />
 			<instance_reference name="turn_plan" value="turn_plan\tank_i" />
 			<float name="acceleration" value="2.6" />
-			<float name="rotation_rate" value="38" />
+			<float name="rotation_rate" value="28" />
 			<float name="speed_max" value="7" />
 			<float name="on_ice_accel_decel_multiplier" value="0.6" />
 			<float name="on_land_overturn_scale" value="0.2" />

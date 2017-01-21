@@ -16,7 +16,7 @@
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="190" mod="df1550dfa8424463bcf29079befc75fb" />
+						<locstring name="screen_name" value="264" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="selection_group" value="carrier" />
 						<group name="speaker_generic">
 							<string name="code_1" value="lv" />

@@ -16,7 +16,7 @@
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11078053" />
+						<locstring name="screen_name" value="11078042" />
 						<string name="selection_group" value="Centaur" />
 						<group name="speaker_generic">
 							<string name="code_1" value="mt" />

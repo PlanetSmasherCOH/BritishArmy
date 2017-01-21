@@ -16,7 +16,7 @@
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11077200" />
+						<locstring name="screen_name" value="269" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="selection_group" value="paratrooper" />
 						<group name="speaker_generic">
 							<string name="code_1" value="co" />

@@ -12,7 +12,7 @@
 				</template_reference>
 				<template_reference name="action" value="action\upgrade_remove">
 					<bool name="apply_to_entities_in_squad" value="False" />
-					<instance_reference name="upgrade" value="upgrade\vehicles\firefly_rp3_loaded" mod="df1550dfa8424463bcf29079befc75fb" />
+					<instance_reference name="upgrade" value="upgrade\vehicles\sherman_ic_rp3_loaded" mod="df1550dfa8424463bcf29079befc75fb" />
 					<uniqueid name="id" value="1073743131" />
 				</template_reference>
 			</list>
@@ -155,14 +155,14 @@
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="upgrade\vehicles\firefly_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade_name" value="upgrade\vehicles\sherman_ic_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="include_queued" value="False" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_entity_upgrade">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="130" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="upgrade\vehicles\firefly_rp3_loaded" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade_name" value="upgrade\vehicles\sherman_ic_rp3_loaded" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="include_queued" value="False" />
 			</template_reference>
 		</list>

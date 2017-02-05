@@ -19,7 +19,7 @@
 				<instance_reference name="ability" value="abilities\british\toggle_ability\brit_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\vehicles\firefly_fire_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="ability" value="abilities\vehicles\firefly_load_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\mortar_barrage_ability\smoke_sherman_mortar_barrage_mp" />
+				<instance_reference name="ability" value="abilities\vehicles\sherman_smoke_thrower" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
@@ -563,7 +563,7 @@
 								<float name="z" value="0.02" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\vehicles\firefly_17pounder" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="weapon" value="weapon\vehicles\sherman_ic_17pounder" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -584,7 +584,7 @@
 								<float name="z" value="1.66" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\vehicles\firefly_m1919_coaxial" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="weapon" value="weapon\vehicles\sherman_ic_m1919a4_coaxial" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -605,7 +605,7 @@
 								<float name="z" value="-0.02" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\vehicles\firefly_rp3_left" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="weapon" value="weapon\vehicles\sherman_ic_rp3_left" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -626,7 +626,7 @@
 								<float name="z" value="-0.02" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\vehicles\firefly_rp3_right" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="weapon" value="weapon\vehicles\sherman_ic_rp3_right" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -647,7 +647,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\vehicles\firefly_smoke_thrower" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="weapon" value="weapon\vehicles\sherman_smoke_thrower" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -1112,9 +1112,9 @@
 			<float name="rotation_rate_stand" value="270" />
 			<bool name="smooth_path" value="True" />
 			<instance_reference name="turn_plan" value="turn_plan\tank_i" />
-			<float name="acceleration" value="2.2" />
-			<float name="rotation_rate" value="34" />
-			<float name="speed_max" value="6.4" />
+			<float name="acceleration" value="2" />
+			<float name="rotation_rate" value="30" />
+			<float name="speed_max" value="6" />
 			<float name="on_ice_accel_decel_multiplier" value="0.6" />
 			<float name="on_land_overturn_scale" value="0.2" />
 			<float name="on_ice_overturn_scale" value="2" />
@@ -1140,7 +1140,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\vehicles\sherman_firefly" mod="df1550dfa8424463bcf29079befc75fb" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\vehicles\sherman_ic" mod="df1550dfa8424463bcf29079befc75fb" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="3" />
 						<list name="recrew_penalties_list">
@@ -1161,7 +1161,7 @@
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
 				<instance_reference name="upgrade" value="upgrade\vehicles\tank_spotter" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="upgrade" value="upgrade\vehicles\firefly_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\sherman_ic_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\marker_ext">

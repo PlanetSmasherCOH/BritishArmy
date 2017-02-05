@@ -447,6 +447,12 @@
 					<instance_reference name="squad" value="sbps\vehicles\cromwell" mod="df1550dfa8424463bcf29079befc75fb" />
 					<bool name="spawn_at_map_entry_point" value="True" />
 				</group>
+				<group name="spawn_item">
+					<int name="ui_position" value="13" />
+					<instance_reference name="entity" value="" />
+					<instance_reference name="squad" value="sbps\vehicles\sherman_i" mod="df1550dfa8424463bcf29079befc75fb" />
+					<bool name="spawn_at_map_entry_point" value="True" />
+				</group>
 			</list>
 			<list name="bonus_xp_from_hold_list">
 			</list>
@@ -458,8 +464,9 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\t2_choose_cromwell" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\t2_choose_valentine" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\t2_choose_cromwell" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\t2_choose_sherman_i" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\requirement_ext">

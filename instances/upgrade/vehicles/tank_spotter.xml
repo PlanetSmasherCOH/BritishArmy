@@ -50,6 +50,14 @@
 			</template_reference>
 			<template_reference name="action" value="action\animator_set_state">
 				<bool name="apply_to_leader_only" value="False" />
+				<string name="do_action_state_name" value="unarmed" />
+				<bool name="retrigger" value="False" />
+				<string name="state_machine_name" value="pintle_m2hb50cal_state" />
+				<string name="undo_action_state_name" value="invisible" />
+				<uniqueid name="id" value="1073743612" />
+			</template_reference>
+			<template_reference name="action" value="action\animator_set_state">
+				<bool name="apply_to_leader_only" value="False" />
 				<string name="do_action_state_name" value="on" />
 				<bool name="retrigger" value="False" />
 				<string name="state_machine_name" value="turret_spotter_state" />
@@ -82,10 +90,12 @@
 				<bool name="is_secured_by_checkpoint" value="False" />
 				<bool name="not_in_transition" value="False" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_race">
+			<template_reference name="required" value="requirements\required_entity_upgrade">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<instance_reference name="race" value="racebps\british" />
+				<bool name="is_present" value="False" />
+				<instance_reference name="upgrade_name" value="upgrade\vehicles\sherman_i_m2hb" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="include_queued" value="True" />
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="" />

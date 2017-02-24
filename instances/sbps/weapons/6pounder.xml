@@ -369,7 +369,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\british\timed_ability\brit_6_pounder_rapid_maneuver_mp" />
+				<instance_reference name="ability" value="abilities\weapons\6pounder_rapid_maneuvers" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -380,8 +380,8 @@
 			</group>
 			<group name="ui_info">
 				<locstring name="extra_text" value="0" />
-				<locstring name="help_text" value="36" mod="df1550dfa8424463bcf29079befc75fb" />
-				<string name="hotkey_name" value="R" />
+				<locstring name="help_text" value="38" mod="df1550dfa8424463bcf29079befc75fb" />
+				<string name="hotkey_name" value="reinforce" />
 				<icon name="icon_name" value="Icons_odds_reinforce" />
 				<string name="overlay_name" value="" />
 				<bool name="reveal_for_decryption" value="False" />

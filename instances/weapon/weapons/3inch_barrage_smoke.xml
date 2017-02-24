@@ -338,7 +338,7 @@
 			<instance_reference name="projectile" value="ebps\projectile\3inch_smoke" mod="df1550dfa8424463bcf29079befc75fb" />
 		</group>
 		<group name="range">
-			<float name="max" value="100" />
+			<float name="max" value="120" />
 			<float name="min" value="25" />
 			<group name="distance">
 				<float name="near" value="-1" />

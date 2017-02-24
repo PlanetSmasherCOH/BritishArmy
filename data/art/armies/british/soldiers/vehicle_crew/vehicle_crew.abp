@@ -1,0 +1,11 @@
+model =
+{
+	"..\\..\\..\\common\\NewMotionTree.abp",
+	"..\\..\\..\\common\\vehicles\\crew\\crew\\crew",
+	"..\\..\\..\\common\\vehicles\\abandon_sync\\abandon_sync",
+	"..\\..\\..\\common\\engineer.abp",
+	"..\\..\\weapons\\smg_mk2_sten\\smg_mk2_sten",
+		
+	"vehicle_crew",
+}
+

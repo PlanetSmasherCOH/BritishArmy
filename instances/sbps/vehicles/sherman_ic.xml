@@ -9,7 +9,7 @@
 						<bool name="allow_spawner_production" value="False" />
 						<locstring name="extra_text" value="11083669" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11084738" />
+						<locstring name="help_text" value="316" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="hotkey_name" value="S" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_british_sherman_firefly" />
 						<bool name="minimap_team_only" value="False" />
@@ -17,7 +17,7 @@
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
 						<locstring name="screen_name" value="260" mod="df1550dfa8424463bcf29079befc75fb" />
-						<string name="selection_group" value="Firefly" />
+						<string name="selection_group" value="sherman" />
 						<group name="speaker_generic">
 							<string name="code_1" value="mt" />
 							<string name="code_2" value="" />

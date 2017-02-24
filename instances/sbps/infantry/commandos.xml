@@ -472,8 +472,8 @@
 			</group>
 			<group name="ui_info">
 				<locstring name="extra_text" value="0" />
-				<locstring name="help_text" value="5" mod="df1550dfa8424463bcf29079befc75fb" />
-				<string name="hotkey_name" value="Reinforce" />
+				<locstring name="help_text" value="38" mod="df1550dfa8424463bcf29079befc75fb" />
+				<string name="hotkey_name" value="reinforce" />
 				<icon name="icon_name" value="Icons_odds_reinforce" />
 				<string name="overlay_name" value="" />
 				<bool name="reveal_for_decryption" value="False" />
@@ -740,6 +740,7 @@
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_double" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_single" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\infantry\commando_m1_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 	</list>

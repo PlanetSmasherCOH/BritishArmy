@@ -21,7 +21,7 @@
 				<float name="command" value="0" />
 				<float name="fuel" value="0" />
 				<float name="manpower" value="0" />
-				<float name="munition" value="20" />
+				<float name="munition" value="30" />
 				<float name="popcap" value="0" />
 			</group>
 			<float name="time_seconds" value="10" />
@@ -30,7 +30,7 @@
 		<enum name="ui_group" value="unit_upgrade_panel" />
 		<int name="ui_position" value="1" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="189" mod="df1550dfa8424463bcf29079befc75fb" />
+			<locstring name="extra_text" value="295" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="help_text" value="188" mod="df1550dfa8424463bcf29079befc75fb" />
 			<string name="hotkey_name" value="V" />
 			<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_switch_bren_for_vickers_icon" />

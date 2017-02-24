@@ -28,9 +28,9 @@
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="unit_upgrade_panel" />
-		<int name="ui_position" value="3" />
+		<int name="ui_position" value="4" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="0" />
+			<locstring name="extra_text" value="297" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="help_text" value="0" />
 			<string name="hotkey_name" value="A" />
 			<icon name="icon_name" value="Icons_abilities_ability_british_increase_squad_size" />
@@ -43,9 +43,34 @@
 		<bool name="validate_actions" value="False" />
 		<list name="actions">
 			<template_reference name="action" value="action\add_to_squad_loadout_action">
-				<uniqueid name="id" value="1073743501" />
+				<uniqueid name="id" value="1073743693" />
 				<instance_reference name="unit_type" value="ebps\soldiers\sapper" mod="df1550dfa8424463bcf29079befc75fb" />
 				<int name="count" value="1" />
+			</template_reference>
+			<template_reference name="action" value="action\slot_item_add">
+				<instance_reference name="slot_item" value="slot_item\infantry\sten" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="permanent" value="True" />
+				<uniqueid name="id" value="1073743661" />
+			</template_reference>
+			<template_reference name="action" value="action\slot_item_add">
+				<instance_reference name="slot_item" value="slot_item\infantry\sten" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="permanent" value="True" />
+				<uniqueid name="id" value="1073743662" />
+			</template_reference>
+			<template_reference name="action" value="action\slot_item_add">
+				<instance_reference name="slot_item" value="slot_item\infantry\sten" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="permanent" value="True" />
+				<uniqueid name="id" value="1073743663" />
+			</template_reference>
+			<template_reference name="action" value="action\slot_item_add">
+				<instance_reference name="slot_item" value="slot_item\infantry\sten" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="permanent" value="True" />
+				<uniqueid name="id" value="1073743664" />
+			</template_reference>
+			<template_reference name="action" value="action\slot_item_add">
+				<instance_reference name="slot_item" value="slot_item\infantry\sten" mod="df1550dfa8424463bcf29079befc75fb" />
+				<bool name="permanent" value="True" />
+				<uniqueid name="id" value="1073743694" />
 			</template_reference>
 			<template_reference name="action" value="action\apply_modifiers_action">
 				<float name="duration" value="0" />
@@ -61,7 +86,7 @@
 						<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 					</template_reference>
 				</list>
-				<uniqueid name="id" value="1073743504" />
+				<uniqueid name="id" value="1073743667" />
 			</template_reference>
 		</list>
 		<list name="requirements">
@@ -73,8 +98,29 @@
 				<bool name="is_secured_by_checkpoint" value="False" />
 				<bool name="not_in_transition" value="False" />
 			</template_reference>
+			<template_reference name="required" value="requirements\required_squad_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="include_queued" value="True" />
+				<bool name="is_present" value="False" />
+				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_boys" mod="df1550dfa8424463bcf29079befc75fb" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_squad_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="include_queued" value="True" />
+				<bool name="is_present" value="False" />
+				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_flamethrower" mod="df1550dfa8424463bcf29079befc75fb" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_squad_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="include_queued" value="True" />
+				<bool name="is_present" value="False" />
+				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_minesweeper" mod="df1550dfa8424463bcf29079befc75fb" />
+			</template_reference>
 		</list>
-		<icon name="ui_kicker_icon_name" value="" />
+		<icon name="ui_kicker_icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_sten_symbol" />
 		<locstring name="ui_squad_name_override" value="100" mod="df1550dfa8424463bcf29079befc75fb" />
 		<locstring name="ui_squad_help_text_override" value="0" />
 		<locstring name="ui_squad_extra_text_override" value="101" mod="df1550dfa8424463bcf29079befc75fb" />

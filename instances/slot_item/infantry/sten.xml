@@ -7,12 +7,12 @@
 		<float name="drop_rate" value="0" />
 		<float name="hardpoint" value="1" />
 		<bool name="has_speech_code" value="False" />
-		<bool name="is_entity_user" value="True" />
+		<bool name="is_entity_user" value="False" />
 		<float name="item_uses" value="0" />
 		<enum name="owner_type" value="squad" />
 		<icon name="package_icon" value="" />
 		<float name="recharge_time" value="0" />
-		<float name="slot_size" value="0" />
+		<float name="slot_size" value="0.4" />
 		<group name="speech_code_2">
 			<string name="code_1" value="" />
 			<string name="code_2" value="" />
@@ -27,7 +27,7 @@
 			<locstring name="extra_text" value="0" />
 			<locstring name="help_text" value="0" />
 			<string name="hotkey_name" value="" />
-			<icon name="icon_name" value="" />
+			<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_sten_symbol" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="0" />

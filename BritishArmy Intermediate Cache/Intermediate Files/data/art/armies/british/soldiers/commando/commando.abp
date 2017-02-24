@@ -4,5 +4,6 @@ model =
 	"commando",
 	"..\\..\\..\\common\\NewMotionTree.abp",
 	"..\\..\\weapons\\smg_mk2_sten\\smg_mk2_sten",
+	"..\\..\\..\\aef\\weapons\\rifle_m1_carbine\\rifle_m1_carbine",
 	"..\\..\\..\\soviet\\weapons\\grenade_rg42\\grenade_rg42",
 }

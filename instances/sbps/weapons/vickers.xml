@@ -7,9 +7,9 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11083376" />
+						<locstring name="extra_text" value="289" mod="df1550dfa8424463bcf29079befc75fb" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="32" mod="df1550dfa8424463bcf29079befc75fb" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="H" />
 						<icon name="icon_name" value="Icons_units_unit_british_vickers_hmg" />
 						<bool name="minimap_team_only" value="False" />

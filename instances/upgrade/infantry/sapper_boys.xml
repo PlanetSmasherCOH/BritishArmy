@@ -30,7 +30,7 @@
 		<enum name="ui_group" value="unit_upgrade_panel" />
 		<int name="ui_position" value="3" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="0" />
+			<locstring name="extra_text" value="296" mod="df1550dfa8424463bcf29079befc75fb" />
 			<locstring name="help_text" value="0" />
 			<string name="hotkey_name" value="A" />
 			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_boys_at_gun" />
@@ -71,13 +71,6 @@
 				<float name="min_owned" value="0" />
 				<instance_reference name="slot_item" value="slot_item\infantry\boys" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_squad_upgrade">
-				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="0" />
-				<bool name="include_queued" value="True" />
-				<bool name="is_present" value="False" />
-				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_flamethrower" mod="df1550dfa8424463bcf29079befc75fb" />
-			</template_reference>
 			<template_reference name="required" value="requirements\required_player_upgrade">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="184" mod="df1550dfa8424463bcf29079befc75fb" />
@@ -85,6 +78,13 @@
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
 				<instance_reference name="upgrade_name" value="upgrade\t1_infantry_equipment" mod="df1550dfa8424463bcf29079befc75fb" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_squad_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="include_queued" value="True" />
+				<bool name="is_present" value="False" />
+				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_assault" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="Icons_weapons_weapon_boys_at_gun" />

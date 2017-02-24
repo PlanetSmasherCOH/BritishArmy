@@ -2,6 +2,10 @@
 <display:MovieClip xmlns:fx='http://ns.adobe.com/mxml/2009' xmlns:display='flash.display.*'>
 	<fx:Script>
 		<![CDATA[
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_3inch_icon.png')]
+		public static var british_3inch_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_42inch_icon.png')]
+		public static var british_42inch_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_ap_shrapnel_mine_mk2_icon.png')]
 		public static var british_ap_shrapnel_mine_mk2_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_assault_sappers_icon.png')]
@@ -14,16 +18,18 @@
 		public static var british_commando_camouflage_inactive_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_firefly_rp3_reload_icon.png')]
 		public static var british_firefly_rp3_reload_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_m2hb_icon.png')]
+		public static var british_m2hb_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_medical_supplies_disable.png')]
 		public static var british_medical_supplies_disable:Class;
-		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_mortar_squad_icon.png')]
-		public static var british_mortar_squad_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_no74_grenade_icon.png')]
 		public static var british_no74_grenade_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_piat_package_icon.png')]
 		public static var british_piat_package_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_repair_station_disable.png')]
 		public static var british_repair_station_disable:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_sherman_105mm_upgrade_icon.png')]
+		public static var british_sherman_105mm_upgrade_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_sten_silenced_symbol.png')]
 		public static var british_sten_silenced_symbol:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_sten_symbol.png')]

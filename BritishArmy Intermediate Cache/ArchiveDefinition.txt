@@ -48,8 +48,8 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\42inch_he.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\42inch_smoke.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\42inch_wp.rgd
-	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\firefly_rp3_left.rgd
-	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\firefly_rp3_right.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\6pounder_ap.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\6pounder_apds.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\land_mattress_rp3.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no36mk1_frag_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no68_at_rifle_grenade.rgd
@@ -57,6 +57,8 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\no77_wp_grenade.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\oqf_75mm.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\piat_rocket.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\sherman_ic_rp3_left.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\sherman_ic_rp3_right.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\sherman_ic_smoke_thrower.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\sherman_i_smoke_thrower.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\boys.rgd
@@ -156,6 +158,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\vehicles\churchill_vickers_k.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\vehicles\sherman_ib.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\vehicles\sherman_ic_rp3.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\vehicles\sherman_ic_rp3_reload.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\vehicles\sherman_i_m2hb.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\vehicles\tank_spotter.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\vehicles\universal_carrier_engineers.rgd

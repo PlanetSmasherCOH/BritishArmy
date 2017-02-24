@@ -19,7 +19,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\no36mk1_frag_grenade.xml</FileName>
-			<FileHash>ed8df0571e855148882e5e9412862a55</FileHash>
+			<FileHash>7963d7ac0f94e0cff85aac9798d55a88</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\no68_at_rifle_grenade.xml</FileName>
@@ -27,7 +27,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\no74_at_grenade.xml</FileName>
-			<FileHash>70aced15bd980b34376004fa2f093f41</FileHash>
+			<FileHash>4d53b655b034af379382ef3f29aec46c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\infantry\no77_wp_grenade.xml</FileName>
@@ -47,7 +47,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\vehicles\sherman_ic_rp3.xml</FileName>
-			<FileHash>5e53198aa758dd4fbf6caf717d5a6be8</FileHash>
+			<FileHash>912f2814bff0eae0cda4b8e16d34d06d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\vehicles\sherman_smoke_thrower.xml</FileName>
@@ -99,7 +99,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\weapons\6pounder_ammo_switch.xml</FileName>
-			<FileHash>ef5792b47769d813b20bf36c87185b02</FileHash>
+			<FileHash>b885e90985feb170bfaf815c96930adb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\abilities\weapons\6pounder_rapid_maneuvers.xml</FileName>
@@ -119,15 +119,15 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\buildings\t0.xml</FileName>
-			<FileHash>61bb0f5914f442d04456c6b3be880bd6</FileHash>
+			<FileHash>7f8602e6a4dba8865b805924ad493b1e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\buildings\t1.xml</FileName>
-			<FileHash>6c309c150e2913588b9a2a7b089acaff</FileHash>
+			<FileHash>e7d38bbb44cab40fc7675ebdca9a0d1b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\buildings\t2.xml</FileName>
-			<FileHash>3791d86393c892746986296f2f15d412</FileHash>
+			<FileHash>d2d9ceae487b0ae6ba5a5fa06d2d2d61</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\buildings\t3.xml</FileName>
@@ -186,16 +186,16 @@
 			<FileHash>cc1d8965e7dcd821766aa9d720aa19c5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\firefly_rp3_left.xml</FileName>
-			<FileHash>ee3433becff2b9a3acf4de5db553aa78</FileHash>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\6pounder_ap.xml</FileName>
+			<FileHash>6253cb91c9c51a4a918f3ad19cc8cc53</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\firefly_rp3_right.xml</FileName>
-			<FileHash>5477ba9a38401c143cab61f390b877db</FileHash>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\6pounder_apds.xml</FileName>
+			<FileHash>902e7543dab4e2d348641fd5c6df47f0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\land_mattress_rp3.xml</FileName>
-			<FileHash>e50bc123711b3d331e467b28586b04a8</FileHash>
+			<FileHash>f7ad0849fae08b8c50277bdd84bc0ec1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\no36mk1_frag_grenade.xml</FileName>
@@ -220,6 +220,14 @@
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\piat_rocket.xml</FileName>
 			<FileHash>5c6ba32dbbd27de09d09b2913b97d10d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\sherman_ic_rp3_left.xml</FileName>
+			<FileHash>4f21fe898aff65f3967fa8663cf914d4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\sherman_ic_rp3_right.xml</FileName>
+			<FileHash>09d75ae2380c9536c3b7698529418feb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\projectile\sherman_ic_smoke_thrower.xml</FileName>
@@ -307,7 +315,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\vehicles\sherman_ic.xml</FileName>
-			<FileHash>c92dc5694fb80fe2cf62e8e4739d9132</FileHash>
+			<FileHash>d36a128ae76992cde86071169364a0ca</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\vehicles\universal_carrier.xml</FileName>
@@ -419,15 +427,15 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\3inch.xml</FileName>
-			<FileHash>f8d8dbf7753d61fba7ef4766ebcd6894</FileHash>
+			<FileHash>c62f51d79ad5c8ec9062b1ecb8113c8a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\42inch.xml</FileName>
-			<FileHash>b246f2193fe9640f13929864c023b81b</FileHash>
+			<FileHash>8d2443c1d6a5f7422bf2131348ec81df</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\6pounder.xml</FileName>
-			<FileHash>53c56e653cae756837be2b0090f3232f</FileHash>
+			<FileHash>0de87da2e92c8304e30e8d07dcb6bb22</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\land_mattress.xml</FileName>
@@ -435,7 +443,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\m2hb.xml</FileName>
-			<FileHash>5f1652e0b0f089282ec51b0f901438fa</FileHash>
+			<FileHash>ba28275380cf15974ccd8b08dd51d3db</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\vickers.xml</FileName>
@@ -611,11 +619,15 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\sherman_ib.xml</FileName>
-			<FileHash>e1856cc9017edd2fb03f1e1ca1d4c02c</FileHash>
+			<FileHash>1bf3cefffd885213e241d81f41f28467</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\sherman_ic_rp3.xml</FileName>
-			<FileHash>dbc14d4cf0f377cffed2825468907a2d</FileHash>
+			<FileHash>03f57b9e0b1cd009d5f8aaa8a5e318ca</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\sherman_ic_rp3_reload.xml</FileName>
+			<FileHash>fd38ffc63a627f85b797ddf37f061855</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\sherman_i_m2hb.xml</FileName>
@@ -627,11 +639,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\universal_carrier_engineers.xml</FileName>
-			<FileHash>cda2ef336ec372da5e1bad345418320e</FileHash>
+			<FileHash>8414e8101bb180282207e53fdb61cb99</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\universal_carrier_medics.xml</FileName>
-			<FileHash>e89545d388b5a7a782e7c3f7580c5630</FileHash>
+			<FileHash>fbc0b2363407ff16fc30667d035f702a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\upgrade\vehicles\universal_carrier_reinforcement.xml</FileName>
@@ -663,11 +675,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\infantry\boys.xml</FileName>
-			<FileHash>853d3418e5118f37fa025a23fef4b7c6</FileHash>
+			<FileHash>30ee0339f11e932aed186b46e049e208</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\infantry\bren.xml</FileName>
-			<FileHash>07cb20aeaf4e26378c417393298bebe8</FileHash>
+			<FileHash>cb4f767232c61e4b41595b0ac263bd63</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\infantry\commando_m1_carbine.xml</FileName>
@@ -723,7 +735,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\infantry\vickers_k.xml</FileName>
-			<FileHash>3db9dd248181e86a6e8b0b06f0e8a106</FileHash>
+			<FileHash>f7a5eae4dd079af8d58ac02ce094bcc8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\infantry\weapon_crew_enfield.xml</FileName>
@@ -775,11 +787,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\vehicles\sherman_ic_rp3_left.xml</FileName>
-			<FileHash>a2176e84f005dce9c89f54b2ca986b4a</FileHash>
+			<FileHash>dc17040267333b2e55af5beaadb28c60</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\vehicles\sherman_ic_rp3_right.xml</FileName>
-			<FileHash>822426f8fb2156043598d57c3ad2b137</FileHash>
+			<FileHash>2113314b69d75f64bfb5fd2db840911f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\vehicles\sherman_ic_smoke_thrower.xml</FileName>
@@ -871,11 +883,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\weapons\6pounder_ap.xml</FileName>
-			<FileHash>7151259f49705047e90fc243e32a7716</FileHash>
+			<FileHash>fc2c7c11cfdadedcb43935916900db71</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\weapons\6pounder_apds.xml</FileName>
-			<FileHash>6ab56138474bbcb7d61afd8873e5f530</FileHash>
+			<FileHash>34cf8cc0793508e2ecf2738f6a8efee8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\weapons\land_mattress_dummy.xml</FileName>
@@ -883,11 +895,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\weapons\land_mattress_rp3.xml</FileName>
-			<FileHash>d67b459c86ad92e958fa639d7792230a</FileHash>
+			<FileHash>a136ca47ea3fec031b5f91a64f19d7c9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\weapons\m2hb.xml</FileName>
-			<FileHash>ae7aac7cf596a1b9ef932ab9f0313b0e</FileHash>
+			<FileHash>0db60b517245d626adc522234a369148</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\weapon\weapons\vickers.xml</FileName>
@@ -895,7 +907,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\locale\english\english.ucs</FileName>
-			<FileHash>e5ff11d9ea83cae7a2103a78fa18f567</FileHash>
+			<FileHash>2db062620b5f7bd823ce32f84e02cf38</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\info\df1550dfa8424463bcf29079befc75fb.info</FileName>
@@ -942,6 +954,14 @@
 			<FileHash>7f5484be5715a4a401cb5f1e35bc406f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_3inch_icon.png</FileName>
+			<FileHash>53a51ef8bf0033d6d71052edd827ea6b</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_42inch_icon.png</FileName>
+			<FileHash>35eacf144de22738b0b444b83c7e86f7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_ap_shrapnel_mine_mk2_icon.png</FileName>
 			<FileHash>1f6937c1d1862f2b8561d5ef2fc1343a</FileHash>
 		</BurnInfo>
@@ -966,12 +986,12 @@
 			<FileHash>4d356c9e5ecea73caca5bacdeb75fb1e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_medical_supplies_disable.png</FileName>
-			<FileHash>7385f9854d79e993ddc3cbd92f919665</FileHash>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_m2hb_icon.png</FileName>
+			<FileHash>92987a05be9ca48e1ecf3f0e893000be</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_mortar_squad_icon.png</FileName>
-			<FileHash>53a51ef8bf0033d6d71052edd827ea6b</FileHash>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_medical_supplies_disable.png</FileName>
+			<FileHash>7385f9854d79e993ddc3cbd92f919665</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_no74_grenade_icon.png</FileName>
@@ -984,6 +1004,10 @@
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_repair_station_disable.png</FileName>
 			<FileHash>3dae9a28f96d0af9000543f45804a365</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_sherman_105mm_upgrade_icon.png</FileName>
+			<FileHash>6142c0921ad777fd33dafc6355a2cf2f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\ui\british_sten_silenced_symbol.png</FileName>

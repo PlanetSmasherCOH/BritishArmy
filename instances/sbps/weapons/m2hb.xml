@@ -11,7 +11,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="H" />
-						<icon name="icon_name" value="Icons_units_unit_british_vickers_hmg" />
+						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_m2hb_icon" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
@@ -54,7 +54,7 @@
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_british_hmg_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_vehicle_soviet_dshk_38_50_cal_hmg_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 						<locstring name="screen_name_short" value="0" />

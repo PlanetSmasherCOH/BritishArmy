@@ -10,15 +10,55 @@
 					<string name="undo_action_state_name" value="" />
 					<uniqueid name="id" value="1073743111" />
 				</template_reference>
-				<template_reference name="action" value="action\upgrade_remove">
+				<template_reference name="action" value="action\upgrade_add">
 					<bool name="apply_to_entities_in_squad" value="False" />
-					<instance_reference name="upgrade" value="" />
-					<uniqueid name="id" value="1073743131" />
+					<bool name="trigger_publish_event" value="False" />
+					<instance_reference name="upgrade" value="upgrade\british\items\firefly_tulip_reload" />
+					<uniqueid name="id" value="1073743727" />
 				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
 			<list name="start_self_actions">
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="False" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_squad_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="include_queued" value="False" />
+							<bool name="is_present" value="True" />
+							<instance_reference name="upgrade_name" value="upgrade\british\items\british_tank_commander" />
+						</template_reference>
+						<template_reference name="required" value="requirements\required_critical">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<instance_reference name="critical_name" value="critical\vehicle_kill_brit_tank_commander" />
+							<bool name="is_present" value="False" />
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\animator_set_state">
+							<bool name="apply_to_leader_only" value="False" />
+							<string name="do_action_state_name" value="off" />
+							<bool name="retrigger" value="False" />
+							<string name="state_machine_name" value="turret_spotter_state" />
+							<string name="undo_action_state_name" value="on" />
+							<uniqueid name="id" value="1073743719" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073743720" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
+				</template_reference>
 				<template_reference name="action" value="action\animator_set_state">
 					<bool name="apply_to_leader_only" value="False" />
 					<string name="do_action_state_name" value="on" />
@@ -68,8 +108,8 @@
 			</list>
 		</group>
 		<enum name="activation" value="targeted" />
-		<bool name="can_interrupt" value="False" />
-		<bool name="can_target_in_fow" value="False" />
+		<bool name="can_interrupt" value="True" />
+		<bool name="can_target_in_fow" value="True" />
 		<float name="caster_close_in_distance" value="0" />
 		<bool name="casters_can_evacuate" value="False" />
 		<group name="cost">
@@ -77,7 +117,7 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="0" />
+			<float name="munition" value="40" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />
@@ -102,7 +142,7 @@
 		<float name="move_back_distance" value="10" />
 		<float name="range" value="50" />
 		<bool name="range_ignore" value="True" />
-		<float name="recharge_time" value="0" />
+		<float name="recharge_time" value="90" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
@@ -158,22 +198,27 @@
 				<instance_reference name="upgrade_name" value="upgrade\vehicles\sherman_ic_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="include_queued" value="False" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_entity_upgrade">
-				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="130" mod="df1550dfa8424463bcf29079befc75fb" />
-				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="" />
-				<bool name="include_queued" value="False" />
+			<template_reference name="required" value="requirements\required_critical">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="319" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="critical_name" value="critical\vehicle_destroy_maingun" />
+				<bool name="is_present" value="False" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_critical">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="319" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="critical_name" value="critical\vehicle_destroy_maingun_ramming" />
+				<bool name="is_present" value="False" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="34" />
+		<int name="ui_position" value="31" />
 		<bool name="ui_mini_map_capture" value="True" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_artillery_barrage" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_su76_barrage" />
-		<float name="ui_reticule_radius_min" value="5" />
-		<float name="ui_reticule_radius_max" value="5" />
+		<float name="ui_reticule_radius_min" value="3" />
+		<float name="ui_reticule_radius_max" value="3" />
 		<enum name="pending_ability_out_of_range_behaviour" value="ignore_range" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />

@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\british\projectiles\3in_rocket\3in_rocket" />
+			<file name="animator" value="armies\british\projectiles\tulip_rocket\tulip_rocket" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -172,11 +172,11 @@
 				<bool name="is_artillery" value="True" />
 				<bool name="is_target_only" value="False" />
 				<float name="speed_distance_multiplier" value="0.2" />
-				<float name="speed_increment" value="3" />
+				<float name="speed_increment" value="0.5" />
 				<enum name="firing_angle_type" value="low_angle" />
 				<bool name="use_homing_when_no_blocker" value="True" />
-				<float name="non_collide_start_angle" value="10" />
-				<float name="non_collide_end_angle" value="89" />
+				<float name="non_collide_start_angle" value="5" />
+				<float name="non_collide_end_angle" value="25" />
 			</group>
 			<float name="building_hit_fx_delay" value="0" />
 			<bool name="collision_building_wall_panel_ignore" value="False" />
@@ -187,13 +187,25 @@
 			<float name="deathtimer" value="5" />
 			<float name="delay_detonate_time" value="0" />
 			<bool name="delay_detonate_ui_enabled" value="False" />
-			<string name="launcher_marker" value="remember_marker" />
+			<string name="launcher_marker" value="fx_muzzle_tulip02" />
 			<float name="life_time_while_alive" value="0" />
 			<float name="rotation_speed" value="0" />
 			<bool name="spawn_collision_fx" value="False" />
-			<float name="speed" value="25" />
+			<float name="speed" value="1" />
 			<bool name="collision_land_ignore" value="False" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext">
+			<list name="actions">
+				<template_reference name="action" value="action\animator_set_state">
+					<bool name="apply_to_leader_only" value="False" />
+					<string name="do_action_state_name" value="tulip" />
+					<bool name="retrigger" value="False" />
+					<string name="state_machine_name" value="projectile_use" />
+					<string name="undo_action_state_name" value="" />
+					<uniqueid name="id" value="1073743108" />
+				</template_reference>
+			</list>
+		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741882" />
+	<uniqueid name="pbgid" value="1073741872" />
 </instance>

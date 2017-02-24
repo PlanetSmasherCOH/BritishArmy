@@ -109,7 +109,7 @@
 			<bool name="support_weapon" value="True" />
 			<bool name="surprises_idle" value="False" />
 			<bool name="piercing" value="False" />
-			<float name="reaction_radius" value="5.1" />
+			<float name="reaction_radius" value="5" />
 			<bool name="can_be_pilfered" value="True" />
 			<bool name="causes_combat" value="True" />
 			<bool name="can_abort_winddown" value="False" />
@@ -357,7 +357,7 @@
 			<float name="moving_end_time" value="0" />
 			<float name="moving_start_time" value="0" />
 		</group>
-		<string name="name" value="60lb Rocket" />
+		<string name="name" value="RP-3 Rocket" />
 		<group name="offhand">
 			<float name="offhand_end_time" value="0" />
 			<float name="offhand_start_time" value="0" />
@@ -378,7 +378,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\landmattress_rocket_mp" />
+			<instance_reference name="projectile" value="ebps\projectile\land_mattress_rp3" mod="df1550dfa8424463bcf29079befc75fb" />
 		</group>
 		<group name="range">
 			<float name="max" value="120" />

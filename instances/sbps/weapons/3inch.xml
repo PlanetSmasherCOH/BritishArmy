@@ -11,7 +11,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="40" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="hotkey_name" value="E" />
-						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_mortar_squad_icon" />
+						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_3inch_icon" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />

@@ -434,7 +434,7 @@
 			<float name="tilt_scatter_chance" value="0.5" />
 		</group>
 		<group name="setup">
-			<float name="duration" value="1.375" />
+			<float name="duration" value="3" />
 			<bool name="has_instant_setup" value="False" />
 			<bool name="can_interrupt_setup" value="False" />
 			<float name="attach_duration" value="1.3" />
@@ -465,7 +465,7 @@
 			<float name="amount" value="0.06" />
 		</group>
 		<group name="teardown">
-			<float name="duration" value="0" />
+			<float name="duration" value="2.5" />
 		</group>
 		<group name="tracking">
 			<float name="fire_cone_angle" value="5" />

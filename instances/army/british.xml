@@ -105,6 +105,11 @@
 		</list>
 		<list name="abilities">
 			<instance_reference name="ability" value="abilities\british\modal_ability\dispatch_ability\brit_hq_engineer_call_in" />
+			<instance_reference name="ability" value="abilities\commander\radio_interference" mod="df1550dfa8424463bcf29079befc75fb" />
+			<instance_reference name="ability" value="abilities\commander\vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
+			<instance_reference name="ability" value="abilities\commander\horsa" mod="df1550dfa8424463bcf29079befc75fb" />
+			<instance_reference name="ability" value="abilities\commander\typhoon_recon_pass" mod="df1550dfa8424463bcf29079befc75fb" />
+			<instance_reference name="ability" value="abilities\commander\typhoon_cannon_strafe" mod="df1550dfa8424463bcf29079befc75fb" />
 		</list>
 		<group name="resource_max_cap">
 			<template_reference name="resource" value="tables\resource_table">
@@ -359,7 +364,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="bunker" />
-				<instance_reference name="building" value="ebps\weapons\vickers_k_nest" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="building" value="ebps\weapons\vickers_k_emplacement" mod="df1550dfa8424463bcf29079befc75fb" />
 				<list name="starting_squads">
 				</list>
 				<list name="player_upgrades">

@@ -474,7 +474,7 @@
 				<enum name="unit_type03" value="heavy_vehicle" />
 				<enum name="unit_type04" value="tank_awareness" />
 				<enum name="unit_type05" value="" />
-				<enum name="unit_type06" value="aef_vehicle" />
+				<enum name="unit_type06" value="brit_vehicle" />
 				<enum name="unit_type07" value="" />
 				<enum name="unit_type08" value="medium_tank" />
 				<enum name="unit_type09" value="" />

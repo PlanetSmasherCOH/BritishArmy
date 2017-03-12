@@ -14,8 +14,12 @@
 		public static var british_assault_sappers_symbol:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_at_mine_gs_mk5.png')]
 		public static var british_at_mine_gs_mk5:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_commando_3inch_icon.png')]
+		public static var british_commando_3inch_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_commando_camouflage_inactive_icon.png')]
 		public static var british_commando_camouflage_inactive_icon:Class;
+		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_commando_vickers_icon.png')]
+		public static var british_commando_vickers_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_firefly_rp3_reload_icon.png')]
 		public static var british_firefly_rp3_reload_icon:Class;
 		[Embed(source='E:/Spiele/CoH2-Mods/BritishArmy/data/ui/british_m2hb_icon.png')]

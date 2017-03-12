@@ -7,9 +7,9 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11083401" />
+						<locstring name="extra_text" value="334" mod="df1550dfa8424463bcf29079befc75fb" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11083400" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="M" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_british_comet" />
 						<bool name="minimap_team_only" value="False" />
@@ -235,16 +235,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11083401" />
+						<locstring name="extra_text" value="327" mod="df1550dfa8424463bcf29079befc75fb" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11083400" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="M" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_british_comet" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11077891" />
+						<locstring name="screen_name" value="328" mod="df1550dfa8424463bcf29079befc75fb" />
 						<string name="selection_group" value="Comet" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
@@ -863,6 +863,18 @@
 			<float name="capture_distance" value="4" />
 			<float name="capture_rate_multiplier" value="0" />
 			<float name="revert_rate_multiplier" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade">
+					<enum name="reason" value="usage_and_display" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<float name="max_completed" value="100" />
+					<float name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\t3_choose_comet" mod="df1550dfa8424463bcf29079befc75fb" />
+				</template_reference>
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073741838" />

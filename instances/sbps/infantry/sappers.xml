@@ -176,6 +176,7 @@
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_flamethrower" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_assault" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_boys" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\add_officer" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
@@ -557,7 +558,7 @@
 					<instance_reference name="construction_menu" value="construction_menu\basic" />
 					<list name="construction_items">
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\weapons\vickers_k_nest" mod="df1550dfa8424463bcf29079befc75fb" />
+							<instance_reference name="ebp" value="ebps\weapons\vickers_k_emplacement" mod="df1550dfa8424463bcf29079befc75fb" />
 							<int name="ui_position" value="22" />
 						</group>
 						<group name="construction_item">

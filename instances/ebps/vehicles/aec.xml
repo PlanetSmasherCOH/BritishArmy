@@ -82,8 +82,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="70" />
-					<float name="manpower" value="280" />
+					<float name="fuel" value="80" />
+					<float name="manpower" value="300" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -1009,26 +1009,6 @@
 								<string name="sync_action_name" value="Attach_Pintle" />
 								<bool name="sync_on_create" value="False" />
 								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
-								<string name="animator_bp_female" value="" />
-							</group>
-						</list>
-						<template_reference name="additional_crew_option" value="options\none">
-						</template_reference>
-					</group>
-				</group>
-				<group name="race_data">
-					<instance_reference name="ext_key" value="" />
-					<group name="info">
-						<string name="sync_target_name" value="Vehicle_Target" />
-						<list name="role_list">
-							<group name="role">
-								<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner" />
-								<string name="sync_action_name" value="Attach_Gunner" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_turret" />
 								<string name="animator_bp_female" value="" />
 							</group>
 						</list>

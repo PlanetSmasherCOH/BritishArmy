@@ -328,7 +328,7 @@
 			<locstring name="help_text_world" value="0" />
 			<locstring name="extra_text_world" value="0" />
 			<enum name="map_rotation_type_override" value="heading" />
-			<icon name="symbol_icon_name" value="Icons_symbols_building_german_bunker_symbol" />
+			<icon name="symbol_icon_name" value="Icons_symbols_unit_british_hmg_symbol" />
 			<enum name="occlusion_state" value="can_be_occluded" />
 			<enum name="decorator_visibility" value="default" />
 			<string name="decorator_marker_name" value="Marker_FX_UI" />

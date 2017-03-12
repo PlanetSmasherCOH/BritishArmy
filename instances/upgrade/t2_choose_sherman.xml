@@ -11,7 +11,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="ihs" />
+			<string name="code_1" value="ans" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
@@ -66,7 +66,23 @@
 				<bool name="is_present" value="False" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\t2_choose_sherman_i" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade_name" value="upgrade\t2_choose_sherman" mod="df1550dfa8424463bcf29079befc75fb" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_player_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="is_present" value="False" />
+				<float name="max_completed" value="100" />
+				<float name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\t2_choose_stuart" mod="df1550dfa8424463bcf29079befc75fb" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_player_upgrade">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<bool name="is_present" value="False" />
+				<float name="max_completed" value="100" />
+				<float name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\t2_choose_aec" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="" />

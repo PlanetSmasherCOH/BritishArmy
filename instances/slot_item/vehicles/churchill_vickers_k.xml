@@ -5,7 +5,7 @@
 		<float name="can_stack_max" value="1" />
 		<instance_reference name="drop_item_entity" value="" />
 		<float name="drop_rate" value="0" />
-		<float name="hardpoint" value="6" />
+		<float name="hardpoint" value="4" />
 		<bool name="has_speech_code" value="True" />
 		<bool name="is_entity_user" value="False" />
 		<float name="item_uses" value="0" />
@@ -86,7 +86,7 @@
 						<enum name="application_type" value="apply_to_weapon" />
 						<bool name="exclusive" value="False" />
 						<string name="modifier_id" value="" />
-						<string name="target_type_name" value="hardpoint_06" />
+						<string name="target_type_name" value="hardpoint_04" />
 						<enum name="usage_type" value="enable" />
 						<float name="value" value="1" />
 						<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />

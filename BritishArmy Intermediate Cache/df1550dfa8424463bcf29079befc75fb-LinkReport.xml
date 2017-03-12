@@ -87,6 +87,11 @@
       <dep id="flash.geom:Matrix" />
       <dep id="flash.geom:Matrix3D" />
     </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_commando_3inch_icon.as" mod="1488813046866" size="353" optimizedsize="320">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_commando_3inch_icon" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
+    </script>
     <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_m2hb_icon.as" mod="1487961833176" size="343" optimizedsize="310">
       <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_m2hb_icon" />
       <pre id="mx.core:BitmapAsset" />
@@ -97,17 +102,19 @@
       <pre id="mx.core:BitmapAsset" />
       <dep id="AS3" />
     </script>
-    <script name="E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\ModIcons_df1550dfa8424463bcf29079befc75fb.mxml" mod="1487963630953" size="2874" optimizedsize="2793">
+    <script name="E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\ModIcons_df1550dfa8424463bcf29079befc75fb.mxml" mod="1489249617409" size="3114" optimizedsize="3027">
       <def id="ModIcons_df1550dfa8424463bcf29079befc75fb" />
       <pre id="flash.display:MovieClip" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_piat_package_icon" />
       <dep id="AS3" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_commando_camouflage_inactive_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_commando_vickers_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_switch_bren_for_vickers_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_assault_sappers_icon" />
-      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_medic_symbol" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_ap_shrapnel_mine_mk2_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_medic_symbol" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_commando_3inch_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_m2hb_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_firefly_rp3_reload_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_tank_spotter_disable_icon" />
@@ -117,10 +124,10 @@
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_3inch_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_at_mine_gs_mk5" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_sten_silenced_symbol" />
-      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_medical_supplies_disable" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_valentine_defensive_mode_icon" />
-      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_42inch_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_medical_supplies_disable" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_sherman_105mm_upgrade_icon" />
+      <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_42inch_icon" />
       <dep id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_sten_symbol" />
     </script>
     <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_ap_shrapnel_mine_mk2_icon.as" mod="1481981384728" size="359" optimizedsize="326">
@@ -137,6 +144,11 @@
       <dep id="mx.core:IRepeaterClient" />
       <dep id="SecurityError" />
       <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_commando_vickers_icon.as" mod="1488813007728" size="355" optimizedsize="322">
+      <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_commando_vickers_icon" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
     </script>
     <script name="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon.as" mod="1481467555633" size="351" optimizedsize="318">
       <def id="ModIcons_df1550dfa8424463bcf29079befc75fb_british_no74_grenade_icon" />

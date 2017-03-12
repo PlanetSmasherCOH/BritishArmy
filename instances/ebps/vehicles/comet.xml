@@ -129,8 +129,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="150" />
-					<float name="manpower" value="500" />
+					<float name="fuel" value="170" />
+					<float name="manpower" value="480" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -207,7 +207,7 @@
 					<uniqueid name="id" value="1073742405" />
 				</template_reference>
 			</list>
-			<float name="armor" value="220" />
+			<float name="armor" value="200" />
 			<float name="rear_armor" value="100" />
 			<float name="target_size" value="22" />
 			<bool name="dies_from_broken_ice" value="True" />
@@ -647,7 +647,7 @@
 							<instance_reference name="weapon" value="weapon\vehicles\comet_76mm" mod="df1550dfa8424463bcf29079befc75fb" />
 						</group>
 					</list>
-					<bool name="receives_attack_commands" value="False" />
+					<bool name="receives_attack_commands" value="True" />
 				</group>
 				<group name="hardpoint">
 					<float name="parent_hardpoint" value="1" />

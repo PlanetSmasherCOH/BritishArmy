@@ -235,9 +235,9 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11095129" />
+						<locstring name="extra_text" value="324" mod="df1550dfa8424463bcf29079befc75fb" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11095130" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="L" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_british_valentine" />
 						<bool name="minimap_team_only" value="False" />
@@ -278,7 +278,7 @@
 						<icon name="portrait_name_summer" value="Icons_portraits_vehicle_british_valentine_s_portrait" />
 						<float name="minimap_texture_scale" value="1" />
 						<locstring name="brief_text" value="0" />
-						<locstring name="screen_name_short" value="11095128" />
+						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />

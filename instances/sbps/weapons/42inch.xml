@@ -9,7 +9,7 @@
 						<bool name="allow_spawner_production" value="False" />
 						<locstring name="extra_text" value="11051549" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="40" mod="df1550dfa8424463bcf29079befc75fb" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_42inch_icon" />
 						<bool name="minimap_team_only" value="False" />

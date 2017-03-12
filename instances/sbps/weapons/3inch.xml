@@ -9,7 +9,7 @@
 						<bool name="allow_spawner_production" value="False" />
 						<locstring name="extra_text" value="11051549" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="40" mod="df1550dfa8424463bcf29079befc75fb" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="E" />
 						<icon name="icon_name" value="ModIcons_df1550dfa8424463bcf29079befc75fb_british_3inch_icon" />
 						<bool name="minimap_team_only" value="False" />
@@ -49,7 +49,7 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_british_tommy_s_portrait" />
 						<float name="minimap_texture_scale" value="0.75" />
-						<locstring name="brief_text" value="41" mod="df1550dfa8424463bcf29079befc75fb" />
+						<locstring name="brief_text" value="0" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />

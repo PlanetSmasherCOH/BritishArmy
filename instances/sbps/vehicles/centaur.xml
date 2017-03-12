@@ -7,9 +7,9 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11083374" />
+						<locstring name="extra_text" value="336" mod="df1550dfa8424463bcf29079befc75fb" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11083373" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="A" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_british_centaur_aa" />
 						<bool name="minimap_team_only" value="False" />
@@ -235,9 +235,9 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11083374" />
+						<locstring name="extra_text" value="331" mod="df1550dfa8424463bcf29079befc75fb" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11083373" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="T" />
 						<icon name="icon_name" value="Icons_vehicles_vehicle_british_centaur_aa" />
 						<bool name="minimap_team_only" value="False" />

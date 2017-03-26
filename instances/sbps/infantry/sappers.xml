@@ -176,7 +176,6 @@
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_flamethrower" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_assault" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_boys" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="upgrade" value="upgrade\add_officer" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">

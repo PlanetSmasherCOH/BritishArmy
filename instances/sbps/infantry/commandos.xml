@@ -741,7 +741,6 @@
 				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_double" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\commando_piat_single" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\commando_m1_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="upgrade" value="upgrade\add_officer" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 	</list>

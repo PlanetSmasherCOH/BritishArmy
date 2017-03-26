@@ -59,7 +59,7 @@
 			<list name="death_actions">
 				<template_reference name="action" value="action\set_crush_mode">
 					<enum name="crush_mode" value="crush_heavy" />
-					<uniqueid name="id" value="1073743880" />
+					<uniqueid name="id" value="1073744014" />
 				</template_reference>
 			</list>
 			<float name="armor" value="1000" />
@@ -67,6 +67,27 @@
 			<float name="target_size" value="50" />
 			<bool name="dies_from_broken_ice" value="False" />
 			<list name="criticals">
+				<group name="critical_group">
+					<float name="max_health_percentage" value="0" />
+					<list name="critical_info">
+						<group name="info">
+							<float name="weight" value="20" />
+							<enum_table name="applicable_weapons">
+								<bool name="small_arms" value="True" />
+								<bool name="flame" value="True" />
+								<bool name="ballistic" value="True" />
+								<bool name="big_explosive" value="True" />
+								<bool name="small_explosive" value="True" />
+							</enum_table>
+							<instance_reference name="critical" value="critical\vehicle_destroy" />
+							<enum_table name="applicable_hit_direction">
+								<bool name="front" value="True" />
+								<bool name="rear" value="True" />
+							</enum_table>
+							<enum name="apply_on" value="penetrate" />
+						</group>
+					</list>
+				</group>
 			</list>
 			<float name="weapon_priority" value="0" />
 			<template_reference name="wreck_entity_option" value="options\none">
@@ -110,19 +131,19 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
 			<group name="detect_camouflage">
-				<float name="tp_global" value="90" />
+				<float name="tp_global" value="10" />
 				<float name="tp_mine" value="0" />
 			</group>
-			<bool name="extended_sight" value="True" />
+			<bool name="extended_sight" value="False" />
 			<float name="extended_sight_radius" value="70" />
-			<float name="reveal_area_on_death_time" value="6" />
+			<float name="reveal_area_on_death_time" value="10" />
 			<group name="sight_package">
-				<float name="inner_height" value="0" />
+				<float name="inner_height" value="60" />
 				<float name="inner_radius" value="0" />
-				<float name="outer_height" value="0" />
-				<float name="outer_radius" value="0" />
-				<float name="cone_angle" value="0" />
-				<float name="cone_start_radius" value="0" />
+				<float name="outer_height" value="60" />
+				<float name="outer_radius" value="40" />
+				<float name="cone_angle" value="90" />
+				<float name="cone_start_radius" value="20" />
 			</group>
 			<group name="extended_sight_target_info">
 				<template_reference name="extended_sight_target_info" value="type_ability_target_type\all">
@@ -523,16 +544,16 @@
 			<float name="crash_fall_rate" value="40" />
 			<float name="crash_turn_rate_cap" value="10" />
 			<instance_reference name="crash_weapon_name" value="weapon\soviet\explosive_weapons\heavy_artillery\il_2_plane_crash_mp" />
-			<float name="distance_to_dive" value="200" />
-			<float name="est_seconds_in_future" value="1" />
+			<float name="distance_to_dive" value="300" />
+			<float name="est_seconds_in_future" value="5" />
 			<float name="flight_max_turning_degree" value="30" />
 			<float name="crash_max_turn_accel_var" value="20" />
 			<float name="crash_min_turn_accel_var" value="10" />
 			<float name="lowest_height_above_buildings" value="4" />
-			<float name="preferred_height_approach" value="26" />
-			<float name="preferred_height_dive" value="15" />
-			<float name="preferred_height_exit" value="70" />
-			<float name="speed" value="175" />
+			<float name="preferred_height_approach" value="40" />
+			<float name="preferred_height_dive" value="20" />
+			<float name="preferred_height_exit" value="20" />
+			<float name="speed" value="100" />
 			<float name="lowest_height_above_ground" value="8" />
 			<group name="actions">
 				<list name="attack_dive_actions">

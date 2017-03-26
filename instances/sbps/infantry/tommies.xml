@@ -174,7 +174,6 @@
 				<instance_reference name="upgrade" value="upgrade\infantry\tommy_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\tommy_bren_to_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\tommy_garand" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="upgrade" value="upgrade\add_officer" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">

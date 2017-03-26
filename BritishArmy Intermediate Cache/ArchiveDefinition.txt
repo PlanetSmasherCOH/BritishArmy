@@ -4,6 +4,11 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 		Override wildcard=".*\.(rgd)$" minsize="-1" maxsize="-1" vt="sha1_blocks" ct="buffer_compress"
 	FileSettingsEnd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\retreat_point.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\british\modal_ability\commander_ability\allied_strategic_bombing.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\british\modal_ability\commander_ability\glider_commandos_only.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\british\modal_ability\commander_ability\mortar_artillery.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\british\modal_ability\commander_ability\smoke_assault.rgd
+	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\british\timed_ability\commander_ability\assault.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\commander\horsa.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\commander\radio_interference.rgd
 	E:\Spiele\CoH2-Mods\BritishArmy\BritishArmy Intermediate Cache\Intermediate Files\attrib\attrib\abilities\commander\typhoon_cannon_strafe.rgd

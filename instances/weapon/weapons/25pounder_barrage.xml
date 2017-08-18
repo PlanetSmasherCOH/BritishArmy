@@ -1,20 +1,20 @@
 <instance description="" template="weapon">
 	<group name="weapon_bag">
 		<group name="accuracy">
-			<float name="near" value="1" />
-			<float name="far" value="1" />
-			<float name="mid" value="1" />
+			<float name="near" value="0" />
+			<float name="far" value="0" />
+			<float name="mid" value="0" />
 		</group>
 		<group name="aim">
 			<group name="fire_aim_time">
 				<float name="max" value="0.125" />
 				<float name="min" value="0.125" />
 			</group>
-			<float name="post_firing_aim_time" value="0" />
+			<float name="post_firing_aim_time" value="2" />
 			<float name="post_firing_cooldown_interval" value="0" />
 			<group name="ready_aim_time">
-				<float name="max" value="2" />
-				<float name="min" value="2" />
+				<float name="max" value="1" />
+				<float name="min" value="1" />
 			</group>
 			<group name="aim_time_multiplier">
 				<float name="near" value="1" />
@@ -43,7 +43,7 @@
 				<float name="angle_left" value="0" />
 				<float name="angle_right" value="0" />
 				<enum name="area_type" value="circle" />
-				<float name="radius" value="7.5" />
+				<float name="radius" value="8" />
 			</group>
 			<group name="damage">
 				<float name="far" value="0.05" />
@@ -56,32 +56,32 @@
 				<float name="mid" value="0.075" />
 			</group>
 			<group name="distance">
-				<float name="far" value="5.625" />
-				<float name="near" value="1.875" />
-				<float name="mid" value="3.75" />
+				<float name="far" value="6" />
+				<float name="near" value="2" />
+				<float name="mid" value="4" />
 			</group>
 			<bool name="has_friendly_fire" value="True" />
 			<bool name="can_harm_shooter" value="False" />
 			<group name="suppression">
 				<float name="far" value="0.25" />
-				<float name="near" value="1" />
-				<float name="mid" value="0.75" />
+				<float name="near" value="0.25" />
+				<float name="mid" value="0.25" />
 			</group>
 			<group name="suppression_friendly">
 				<float name="far" value="0.25" />
-				<float name="near" value="1" />
-				<float name="mid" value="0.75" />
+				<float name="near" value="0.25" />
+				<float name="mid" value="0.25" />
 			</group>
 			<bool name="damage_all_in_hold" value="True" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
-				<float name="far" value="607.5" />
-				<float name="mid" value="675" />
-				<float name="near" value="750" />
+				<float name="far" value="1000" />
+				<float name="mid" value="1000" />
+				<float name="near" value="1000" />
 			</template_reference>
 			<group name="building_damage">
-				<float name="near" value="1.0023" />
-				<float name="mid" value="0.5" />
-				<float name="far" value="0.0077" />
+				<float name="near" value="1" />
+				<float name="mid" value="0.001" />
+				<float name="far" value="0.005" />
 			</group>
 			<instance_reference name="weapon_building_damage" value="weapon_building_damage\aoe_profile_he_shell" />
 			<enum name="aoe_origin_and_direction" value="hit_position_and_direction" />
@@ -290,8 +290,8 @@
 			</list>
 		</group>
 		<group name="fire">
-			<float name="wind_down" value="2" />
-			<float name="wind_up" value="0" />
+			<float name="wind_down" value="1.4" />
+			<float name="wind_up" value="0.7" />
 			<list name="on_fire_actions">
 			</list>
 		</group>
@@ -341,9 +341,9 @@
 			<float name="max" value="250" />
 			<float name="min" value="35" />
 			<group name="distance">
-				<float name="near" value="-1" />
+				<float name="near" value="35" />
 				<float name="far" value="-1" />
-				<float name="mid" value="-1" />
+				<float name="mid" value="142.5" />
 			</group>
 		</group>
 		<group name="reload">
@@ -418,15 +418,15 @@
 			<float name="fire_cone_angle" value="10" />
 			<group name="normal">
 				<float name="max_down" value="-90" />
-				<float name="max_left" value="-180" />
-				<float name="max_right" value="180" />
+				<float name="max_left" value="-5" />
+				<float name="max_right" value="5" />
 				<float name="max_up" value="90" />
 				<float name="speed_horizontal" value="25" />
 				<float name="speed_vertical" value="25" />
 			</group>
-			<float name="pivot_end_time" value="2" />
-			<bool name="pivot_only" value="True" />
-			<float name="pivot_start_time" value="2.8" />
+			<float name="pivot_end_time" value="0" />
+			<bool name="pivot_only" value="False" />
+			<float name="pivot_start_time" value="0" />
 			<float name="fire_cone_angle_vert" value="2" />
 		</group>
 		<locstring name="ui_name" value="0" />
@@ -445,6 +445,15 @@
 			<int name="alpha" value="0" />
 		</group>
 		<list name="target_type_table">
+			<group name="target_unit_type_multipliers">
+				<enum name="unit_type" value="production_building" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="0.75" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+			</group>
 		</list>
 	</group>
 	<uniqueid name="pbgid" value="1073741868" />

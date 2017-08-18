@@ -290,8 +290,8 @@
 			</list>
 		</group>
 		<group name="fire">
-			<float name="wind_down" value="2" />
-			<float name="wind_up" value="0" />
+			<float name="wind_down" value="1.4" />
+			<float name="wind_up" value="0.7" />
 			<list name="on_fire_actions">
 			</list>
 		</group>
@@ -418,15 +418,15 @@
 			<float name="fire_cone_angle" value="10" />
 			<group name="normal">
 				<float name="max_down" value="-90" />
-				<float name="max_left" value="-180" />
-				<float name="max_right" value="180" />
+				<float name="max_left" value="-5" />
+				<float name="max_right" value="5" />
 				<float name="max_up" value="90" />
 				<float name="speed_horizontal" value="25" />
 				<float name="speed_vertical" value="25" />
 			</group>
-			<float name="pivot_end_time" value="2" />
-			<bool name="pivot_only" value="True" />
-			<float name="pivot_start_time" value="2.8" />
+			<float name="pivot_end_time" value="0" />
+			<bool name="pivot_only" value="False" />
+			<float name="pivot_start_time" value="0" />
 			<float name="fire_cone_angle_vert" value="2" />
 		</group>
 		<locstring name="ui_name" value="0" />

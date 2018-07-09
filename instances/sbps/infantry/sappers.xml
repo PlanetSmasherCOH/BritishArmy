@@ -17,7 +17,7 @@
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
 						<locstring name="screen_name" value="11" mod="df1550dfa8424463bcf29079befc75fb" />
-						<string name="selection_group" value="assault_engineer" />
+						<string name="selection_group" value="sappers" />
 						<group name="speaker_generic">
 							<string name="code_1" value="en" />
 							<string name="code_2" value="" />
@@ -174,7 +174,7 @@
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_minesweeper" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_flamethrower" mod="df1550dfa8424463bcf29079befc75fb" />
-				<instance_reference name="upgrade" value="upgrade\infantry\sapper_assault" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\infantry\sapper_sten" mod="df1550dfa8424463bcf29079befc75fb" />
 				<instance_reference name="upgrade" value="upgrade\infantry\sapper_boys" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>

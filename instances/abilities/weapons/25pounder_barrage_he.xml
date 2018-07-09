@@ -23,7 +23,7 @@
 						<instance_reference name="weapon_02" value="" />
 						<instance_reference name="weapon_03" value="" />
 					</group>
-					<float name="num_salvo" value="4" />
+					<float name="num_salvo" value="12" />
 					<float name="use_hardpoint" value="2" />
 					<bool name="face_to_target" value="True" />
 					<uniqueid name="id" value="1073743204" />
@@ -76,9 +76,9 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="250" />
+		<float name="range" value="200" />
 		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="80" />
+		<float name="recharge_time" value="90" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="free_fire" />
@@ -132,8 +132,8 @@
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_artillery_barrage" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_105mm_howitzer_barrage" />
-		<float name="ui_reticule_radius_min" value="8" />
-		<float name="ui_reticule_radius_max" value="18.5" />
+		<float name="ui_reticule_radius_min" value="1.75" />
+		<float name="ui_reticule_radius_max" value="10" />
 		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />

@@ -1058,6 +1058,8 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
+				<instance_reference name="upgrade" value="upgrade\vehicles\tank_spotter" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade" value="upgrade\vehicles\sherman_i_m2hb" mod="df1550dfa8424463bcf29079befc75fb" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\crew_ext">
@@ -1143,19 +1145,19 @@
 					</group>
 				</group>
 				<group name="race_data">
-					<instance_reference name="ext_key" value="" />
+					<instance_reference name="ext_key" value="racebps\british" />
 					<group name="info">
 						<string name="sync_target_name" value="Vehicle_Target" />
 						<list name="role_list">
 							<group name="role">
-								<string name="animator_bp" value="armies\soviet\soldiers\tank_crew_1\tank_crew_1" />
+								<string name="animator_bp" value="armies\british\soldiers\vehicle_crew\vehicle_crew" />
 								<string name="death_event_name" value="Death_Crew" />
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="Spotter" />
 								<string name="sync_action_name" value="Attach_Spotter" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="abandon_gunner" />
-								<string name="animator_bp_female" value="armies\soviet\soldiers\tank_crew_1\tank_crew_1" />
+								<bool name="sync_on_create" value="False" />
+								<string name="abandon_event_name" value="abandon_m2hb50cal_gunner" />
+								<string name="animator_bp_female" value="" />
 							</group>
 						</list>
 						<template_reference name="additional_crew_option" value="options\none">

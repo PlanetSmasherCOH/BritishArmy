@@ -84,7 +84,7 @@
 				<locstring name="ui_name" value="0" />
 				<bool name="include_queued" value="True" />
 				<bool name="is_present" value="False" />
-				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_assault" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="upgrade_name" value="upgrade\infantry\sapper_sten" mod="df1550dfa8424463bcf29079befc75fb" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_squad_upgrade">
 				<enum name="reason" value="usage_and_display" />
@@ -104,7 +104,7 @@
 		<icon name="ui_kicker_icon_name" value="Icons_weapons_weapon_boys_at_gun" />
 		<locstring name="ui_squad_name_override" value="0" />
 		<locstring name="ui_squad_help_text_override" value="0" />
-		<locstring name="ui_squad_extra_text_override" value="0" />
+		<locstring name="ui_squad_extra_text_override" value="370" mod="df1550dfa8424463bcf29079befc75fb" />
 		<list name="ui_preview">
 		</list>
 		<list name="on_cancel_actions">

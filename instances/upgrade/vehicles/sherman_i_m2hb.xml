@@ -40,11 +40,11 @@
 			<locstring name="screen_name_short" value="0" />
 			<enum name="ui_style" value="default" />
 		</group>
-		<bool name="validate_actions" value="True" />
+		<bool name="validate_actions" value="False" />
 		<list name="actions">
 			<template_reference name="action" value="action\slot_item_add">
 				<instance_reference name="slot_item" value="slot_item\vehicles\sherman_i_m2hb" mod="df1550dfa8424463bcf29079befc75fb" />
-				<bool name="permanent" value="True" />
+				<bool name="permanent" value="False" />
 				<uniqueid name="id" value="1073744013" />
 			</template_reference>
 		</list>

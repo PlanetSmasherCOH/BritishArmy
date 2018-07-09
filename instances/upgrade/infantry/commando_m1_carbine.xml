@@ -43,27 +43,27 @@
 		<bool name="validate_actions" value="False" />
 		<list name="actions">
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\m1_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\commando_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743676" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\m1_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\commando_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743677" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\m1_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\commando_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743678" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\m1_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\commando_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743679" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\m1_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\commando_carbine" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743680" />
 			</template_reference>

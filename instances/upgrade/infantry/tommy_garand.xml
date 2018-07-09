@@ -43,27 +43,35 @@
 		<bool name="validate_actions" value="False" />
 		<list name="actions">
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\garand" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\tommy_garand" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743669" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\garand" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\tommy_garand" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743670" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\garand" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\tommy_garand" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743671" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\infantry\garand" mod="df1550dfa8424463bcf29079befc75fb" />
+				<instance_reference name="slot_item" value="slot_item\infantry\tommy_garand" mod="df1550dfa8424463bcf29079befc75fb" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743672" />
 			</template_reference>
 		</list>
 		<list name="requirements">
+			<template_reference name="required" value="requirements\required_in_territory">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<bool name="in_supply" value="True" />
+				<bool name="is_secured" value="False" />
+				<bool name="is_secured_by_checkpoint" value="False" />
+				<bool name="not_in_transition" value="False" />
+			</template_reference>
 			<template_reference name="required" value="requirements\required_player_upgrade">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="184" mod="df1550dfa8424463bcf29079befc75fb" />
@@ -90,14 +98,6 @@
 				<bool name="include_queued" value="True" />
 				<bool name="is_present" value="False" />
 				<instance_reference name="upgrade_name" value="upgrade\infantry\tommy_vickers_k" mod="df1550dfa8424463bcf29079befc75fb" />
-			</template_reference>
-			<template_reference name="required" value="requirements\required_in_territory">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
-				<bool name="in_supply" value="True" />
-				<bool name="is_secured" value="False" />
-				<bool name="is_secured_by_checkpoint" value="False" />
-				<bool name="not_in_transition" value="False" />
 			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="Icons_weapons_weapon_gewehr43_noscope" />

@@ -422,6 +422,10 @@
 			<FileHash>1e2d69a356c361c4fc6e4c2b7119300c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\weapons\25pounder_tw.xml</FileName>
+			<FileHash>7eaa6c74c6b6bbf9021419133c230992</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\ebps\weapons\3inch.xml</FileName>
 			<FileHash>87257bcc8303d7cc0c228f4204886d4b</FileHash>
 		</BurnInfo>
@@ -471,7 +475,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\infantry\sappers.xml</FileName>
-			<FileHash>091629bcf58b43ed431df8575af16c64</FileHash>
+			<FileHash>8a9833d6100ddb19d7ea2c17b4c040b0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\infantry\tommies.xml</FileName>
@@ -524,6 +528,10 @@
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\25pounder.xml</FileName>
 			<FileHash>0f54625040a1c3c21013febac079c76c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\25pounder_tw.xml</FileName>
+			<FileHash>3e841f18d9f78ddf94c5303ba293592c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\instances\sbps\weapons\3inch.xml</FileName>
@@ -1084,6 +1092,10 @@
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\art\armies\british\vehicles\churchill\churchill.abp</FileName>
 			<FileHash>3c81e15a1d0f3c73665c230af9dc0ad2</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\art\armies\british\weapons\25_pounder\25_pounder.abp</FileName>
+			<FileHash>1aa43c8ba8e807a54bf20ba7a1b338eb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>E:\Spiele\CoH2-Mods\BritishArmy\data\art\armies\common\completemotiontree.abp</FileName>

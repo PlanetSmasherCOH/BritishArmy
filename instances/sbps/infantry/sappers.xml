@@ -588,6 +588,10 @@
 							<instance_reference name="ebp" value="ebps\defenses\trench" mod="df1550dfa8424463bcf29079befc75fb" />
 							<int name="ui_position" value="21" />
 						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\weapons\25pounder_tw" mod="df1550dfa8424463bcf29079befc75fb" />
+							<int name="ui_position" value="34" />
+						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_german_pioneer_basic" />
 				</group>
